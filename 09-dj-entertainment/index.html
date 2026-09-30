@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nightgrade Sound — Mobile DJ & Event Entertainment (Demo)</title>
+<meta name="description" content="Fictional demo: a mobile DJ and event entertainment site with mixes, packages priced by equipment and hours, and a live date calendar.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#08090A">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.pexels.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;family=Space+Grotesk:wght@400;500;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');if(!(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)){document.documentElement.classList.add('js-reveal');setTimeout(function(){if(!window.NG_READY){document.documentElement.classList.remove('js-reveal');}},2500);}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head" data-head>
+  <div class="wrap head-in">
+    <a class="brand" href="index.html" aria-label="Nightgrade Sound — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-word">Nightgrade Sound</span></a>
+    <nav class="nav" aria-label="Primary"><a href="media.html">Mixes</a><a href="index.html#played">Events</a><a href="packages.html">Packages</a><a href="book.html">Availability</a><a href="about.html">About</a></nav>
+    <div class="head-social"><a class="icon-btn" href="#social" aria-label="Photo profile — link to confirm"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="16" y="6" width="2" height="2" fill="currentColor"/></svg></a><a class="icon-btn" href="#social" aria-label="Mix archive profile — link to confirm"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M3 12h2M7 8v8M11 5v14M15 9v6M19 7v10M21 12h1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></a></div>
+    <a class="btn btn-solid-off head-cta" href="book.html">Check a date</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mnav" data-menu><span class="bars" aria-hidden="true"></span>Menu</button>
+  </div>
+  <nav class="mnav" id="mnav" aria-label="Mobile">
+    <ul><li><a href="media.html">Mixes<span aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></a></li><li><a href="index.html#played">Events<span aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></a></li><li><a href="packages.html">Packages<span aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></a></li><li><a href="book.html">Availability<span aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></a></li><li><a href="about.html">About<span aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></a></li><li><a href="book.html">Check a date<span aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></a></li></ul>
+    <div class="mnav-social wrap"><a class="icon-btn" href="#social" aria-label="Photo profile — link to confirm"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="16" y="6" width="2" height="2" fill="currentColor"/></svg></a><a class="icon-btn" href="#social" aria-label="Mix archive profile — link to confirm"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M3 12h2M7 8v8M11 5v14M15 9v6M19 7v10M21 12h1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></a></div>
+  </nav>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="hero-h">
+  <div class="hero-media"><div class="duo"><img src="https://images.pexels.com/photos/8448563/pexels-photo-8448563.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/8448563/pexels-photo-8448563.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/8448563/pexels-photo-8448563.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/8448563/pexels-photo-8448563.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/8448563/pexels-photo-8448563.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 900px) 67vw, 100vw" width="1600" height="1067" alt="A DJ seen from behind at a booth, silhouetted against blue stage lighting and a ring-shaped light wall" loading="eager" fetchpriority="high" decoding="async" style="object-position:60% 50%"></div></div>
+  <div class="hero-copy">
+    <p class="kicker mono">Mobile DJ · Weddings · Corporate · Private — <span class="ph">[METRO AREA — CONFIRM]</span>, <span class="ph">[STATE]</span></p>
+    <h1 class="h-xl" id="hero-h">Nightgrade Sound</h1>
+    <p class="now">Now booking <span class="ph">[SEASON/YEAR — CONFIRM]</span></p>
+    <p><span class="ph">[PLACEHOLDER: 2 sentences — client to supply]</span></p>
+    <div class="hero-actions">
+      <a class="btn btn-cta" href="#availability">Check your date <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></a>
+      <a class="btn btn-pill" href="#mixes">Hear a mix</a>
+    </div>
+    <p class="hero-price"><span>PACKAGES FROM <b>$<span class="ph">[TIER 1 PRICE]</span></b></span><span>PRICES ON THE PAGE · BOOK ONLINE</span></p>
+  </div>
+  <a class="scroll-cue" href="#events-split" aria-label="Scroll to event types"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path d="M5 9l7 7 7-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></a>
+</section>
+
+<section class="section split cut" id="events-split" aria-labelledby="split-h" data-cut>
+  <div class="wrap"><div class="s-head s-head-row"><div><p class="eyebrow label">Pick your night</p><h2 class="h-l" id="split-h">Three kinds of room</h2></div><p class="muted">Every package is priced by equipment and hours. Choose the event type to see what changes.</p></div></div>
+  <div class="split-grid"><a class="split-item lift-parent reveal" style="--d:0" href="packages.html#weddings">
+      <div class="duo"><img src="https://images.pexels.com/photos/37975400/pexels-photo-37975400.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/37975400/pexels-photo-37975400.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/37975400/pexels-photo-37975400.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/37975400/pexels-photo-37975400.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/37975400/pexels-photo-37975400.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 760px) 33vw, 100vw" width="1600" height="2400" alt="An empty dance floor with patterned gobo light, white beams and warm spot fixtures above, before guests arrive" loading="lazy" decoding="async"></div>
+      <div class="split-copy"><h3>Weddings <span class="arrow" aria-hidden="true">→</span></h3><p>Ceremony, cocktail hour, first dance, last song.</p></div>
+    </a><a class="split-item lift-parent reveal" style="--d:1" href="packages.html#corporate">
+      <div class="duo"><img src="https://images.pexels.com/photos/35042461/pexels-photo-35042461.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/35042461/pexels-photo-35042461.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/35042461/pexels-photo-35042461.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/35042461/pexels-photo-35042461.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/35042461/pexels-photo-35042461.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 760px) 33vw, 100vw" width="1600" height="1068" alt="A gala room set with round tables, a blank projection screen and a lit stage, before guests arrive" loading="lazy" decoding="async"></div>
+      <div class="split-copy"><h3>Corporate <span class="arrow" aria-hidden="true">→</span></h3><p>Walk-in, awards, speeches, a floor that fills.</p></div>
+    </a><a class="split-item lift-parent reveal" style="--d:2" href="packages.html#private">
+      <div class="duo"><img src="https://images.pexels.com/photos/16985178/pexels-photo-16985178.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/16985178/pexels-photo-16985178.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/16985178/pexels-photo-16985178.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/16985178/pexels-photo-16985178.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/16985178/pexels-photo-16985178.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 760px) 33vw, 100vw" width="1600" height="1067" alt="A loft-style event space with high ceilings, bar tables and a patterned gobo light on the wooden floor" loading="lazy" decoding="async"></div>
+      <div class="split-copy"><h3>Private parties <span class="arrow" aria-hidden="true">→</span></h3><p>Backyards, lofts, birthdays, anniversaries.</p></div>
+    </a></div>
+</section>
+
+<section class="section mixes scan cut cut-rev" data-cut id="mixes" aria-labelledby="mixes-h">
+  <div class="wrap">
+    <div class="s-head s-head-row">
+      <div><p class="eyebrow label">Hear it first</p><h2 class="h-l" id="mixes-h">Mixes</h2></div>
+      <p class="muted">Four recent sets. Press play for a short demo-tone preview — the real mixes drop in when the files arrive. Nothing plays until you press play.</p>
+    </div>
+    <div class="mix-grid"><article class="player reveal " style="--d:0" data-player data-key="0">
+  <div class="duo thumb"><img src="https://images.pexels.com/photos/5389619/pexels-photo-5389619.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/5389619/pexels-photo-5389619.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/5389619/pexels-photo-5389619.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/5389619/pexels-photo-5389619.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/5389619/pexels-photo-5389619.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="128px" width="1600" height="2416" alt="Three spotlights casting purple pools of light on an empty dark stage" loading="lazy" decoding="async"></div>
+  <div class="player-body">
+    <div class="player-top">
+      <button class="play" type="button" aria-pressed="false" aria-label="Play demo tone preview — Late Set — Room Two"><svg class="i-play" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M7 4.5v15l13-7.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M6 5h4v14H6zM14 5h4v14h-4z" fill="currentColor"/></svg></button>
+      <div>
+        <h3>Late Set — Room Two</h3>
+        <p class="sub"><span class="tag">Wedding</span> Nightgrade Sound · <span class="ph">[BPM RANGE]</span></p>
+      </div>
+    </div>
+    <div class="wave-row">
+      <span class="wave-time" data-elapsed aria-hidden="true">0:00</span>
+      <div class="wave" data-wave aria-hidden="true"><div class="bars"><i style="--h:40%;--i:0"></i><i style="--h:37%;--i:1"></i><i style="--h:34%;--i:2"></i><i style="--h:30%;--i:3"></i><i style="--h:48%;--i:4"></i><i style="--h:54%;--i:5"></i><i style="--h:45%;--i:6"></i><i style="--h:49%;--i:7"></i><i style="--h:55%;--i:8"></i><i style="--h:46%;--i:9"></i><i style="--h:64%;--i:10"></i><i style="--h:43%;--i:11"></i><i style="--h:70%;--i:12"></i><i style="--h:44%;--i:13"></i><i style="--h:74%;--i:14"></i><i style="--h:65%;--i:15"></i><i style="--h:74%;--i:16"></i><i style="--h:47%;--i:17"></i><i style="--h:67%;--i:18"></i><i style="--h:47%;--i:19"></i><i style="--h:62%;--i:20"></i><i style="--h:69%;--i:21"></i><i style="--h:54%;--i:22"></i><i style="--h:47%;--i:23"></i><i style="--h:67%;--i:24"></i><i style="--h:70%;--i:25"></i><i style="--h:72%;--i:26"></i><i style="--h:73%;--i:27"></i><i style="--h:74%;--i:28"></i><i style="--h:54%;--i:29"></i><i style="--h:89%;--i:30"></i><i style="--h:75%;--i:31"></i><i style="--h:60%;--i:32"></i><i style="--h:53%;--i:33"></i><i style="--h:79%;--i:34"></i><i style="--h:71%;--i:35"></i><i style="--h:71%;--i:36"></i><i style="--h:86%;--i:37"></i><i style="--h:63%;--i:38"></i><i style="--h:56%;--i:39"></i><i style="--h:71%;--i:40"></i><i style="--h:53%;--i:41"></i><i style="--h:85%;--i:42"></i><i style="--h:67%;--i:43"></i><i style="--h:68%;--i:44"></i><i style="--h:62%;--i:45"></i><i style="--h:79%;--i:46"></i><i style="--h:87%;--i:47"></i><i style="--h:54%;--i:48"></i><i style="--h:80%;--i:49"></i><i style="--h:65%;--i:50"></i><i style="--h:52%;--i:51"></i><i style="--h:60%;--i:52"></i><i style="--h:76%;--i:53"></i><i style="--h:62%;--i:54"></i><i style="--h:73%;--i:55"></i><i style="--h:35%;--i:56"></i><i style="--h:26%;--i:57"></i><i style="--h:30%;--i:58"></i><i style="--h:33%;--i:59"></i><i style="--h:25%;--i:60"></i><i style="--h:58%;--i:61"></i><i style="--h:58%;--i:62"></i><i style="--h:67%;--i:63"></i><i style="--h:57%;--i:64"></i><i style="--h:52%;--i:65"></i><i style="--h:62%;--i:66"></i><i style="--h:62%;--i:67"></i><i style="--h:47%;--i:68"></i><i style="--h:46%;--i:69"></i><i style="--h:36%;--i:70"></i><i style="--h:44%;--i:71"></i><i style="--h:47%;--i:72"></i><i style="--h:33%;--i:73"></i><i style="--h:41%;--i:74"></i><i style="--h:47%;--i:75"></i><i style="--h:29%;--i:76"></i><i style="--h:27%;--i:77"></i><i style="--h:29%;--i:78"></i><i style="--h:39%;--i:79"></i><i style="--h:37%;--i:80"></i><i style="--h:33%;--i:81"></i><i style="--h:29%;--i:82"></i><i style="--h:40%;--i:83"></i><i style="--h:41%;--i:84"></i><i style="--h:28%;--i:85"></i><i style="--h:28%;--i:86"></i><i style="--h:29%;--i:87"></i><i style="--h:38%;--i:88"></i><i style="--h:23%;--i:89"></i></div><div class="bars played"><i style="--h:40%;--i:0"></i><i style="--h:37%;--i:1"></i><i style="--h:34%;--i:2"></i><i style="--h:30%;--i:3"></i><i style="--h:48%;--i:4"></i><i style="--h:54%;--i:5"></i><i style="--h:45%;--i:6"></i><i style="--h:49%;--i:7"></i><i style="--h:55%;--i:8"></i><i style="--h:46%;--i:9"></i><i style="--h:64%;--i:10"></i><i style="--h:43%;--i:11"></i><i style="--h:70%;--i:12"></i><i style="--h:44%;--i:13"></i><i style="--h:74%;--i:14"></i><i style="--h:65%;--i:15"></i><i style="--h:74%;--i:16"></i><i style="--h:47%;--i:17"></i><i style="--h:67%;--i:18"></i><i style="--h:47%;--i:19"></i><i style="--h:62%;--i:20"></i><i style="--h:69%;--i:21"></i><i style="--h:54%;--i:22"></i><i style="--h:47%;--i:23"></i><i style="--h:67%;--i:24"></i><i style="--h:70%;--i:25"></i><i style="--h:72%;--i:26"></i><i style="--h:73%;--i:27"></i><i style="--h:74%;--i:28"></i><i style="--h:54%;--i:29"></i><i style="--h:89%;--i:30"></i><i style="--h:75%;--i:31"></i><i style="--h:60%;--i:32"></i><i style="--h:53%;--i:33"></i><i style="--h:79%;--i:34"></i><i style="--h:71%;--i:35"></i><i style="--h:71%;--i:36"></i><i style="--h:86%;--i:37"></i><i style="--h:63%;--i:38"></i><i style="--h:56%;--i:39"></i><i style="--h:71%;--i:40"></i><i style="--h:53%;--i:41"></i><i style="--h:85%;--i:42"></i><i style="--h:67%;--i:43"></i><i style="--h:68%;--i:44"></i><i style="--h:62%;--i:45"></i><i style="--h:79%;--i:46"></i><i style="--h:87%;--i:47"></i><i style="--h:54%;--i:48"></i><i style="--h:80%;--i:49"></i><i style="--h:65%;--i:50"></i><i style="--h:52%;--i:51"></i><i style="--h:60%;--i:52"></i><i style="--h:76%;--i:53"></i><i style="--h:62%;--i:54"></i><i style="--h:73%;--i:55"></i><i style="--h:35%;--i:56"></i><i style="--h:26%;--i:57"></i><i style="--h:30%;--i:58"></i><i style="--h:33%;--i:59"></i><i style="--h:25%;--i:60"></i><i style="--h:58%;--i:61"></i><i style="--h:58%;--i:62"></i><i style="--h:67%;--i:63"></i><i style="--h:57%;--i:64"></i><i style="--h:52%;--i:65"></i><i style="--h:62%;--i:66"></i><i style="--h:62%;--i:67"></i><i style="--h:47%;--i:68"></i><i style="--h:46%;--i:69"></i><i style="--h:36%;--i:70"></i><i style="--h:44%;--i:71"></i><i style="--h:47%;--i:72"></i><i style="--h:33%;--i:73"></i><i style="--h:41%;--i:74"></i><i style="--h:47%;--i:75"></i><i style="--h:29%;--i:76"></i><i style="--h:27%;--i:77"></i><i style="--h:29%;--i:78"></i><i style="--h:39%;--i:79"></i><i style="--h:37%;--i:80"></i><i style="--h:33%;--i:81"></i><i style="--h:29%;--i:82"></i><i style="--h:40%;--i:83"></i><i style="--h:41%;--i:84"></i><i style="--h:28%;--i:85"></i><i style="--h:28%;--i:86"></i><i style="--h:29%;--i:87"></i><i style="--h:38%;--i:88"></i><i style="--h:23%;--i:89"></i></div></div>
+      <span class="wave-time dur"><span class="ph">[62:14]</span></span>
+    </div>
+    <div class="player-foot"><span><span class="ph">[AUDIO FILE — client to supply]</span></span><span>Demo tone preview · 0:30</span></div>
+  </div>
+</article><article class="player reveal " style="--d:1" data-player data-key="1">
+  <div class="duo thumb"><img src="https://images.pexels.com/photos/12092991/pexels-photo-12092991.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/12092991/pexels-photo-12092991.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/12092991/pexels-photo-12092991.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/12092991/pexels-photo-12092991.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/12092991/pexels-photo-12092991.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="128px" width="1600" height="1067" alt="A bar of stage lights shining through haze against a dark wall" loading="lazy" decoding="async"></div>
+  <div class="player-body">
+    <div class="player-top">
+      <button class="play" type="button" aria-pressed="false" aria-label="Play demo tone preview — Cocktail Hour (Warm)"><svg class="i-play" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M7 4.5v15l13-7.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M6 5h4v14H6zM14 5h4v14h-4z" fill="currentColor"/></svg></button>
+      <div>
+        <h3>Cocktail Hour (Warm)</h3>
+        <p class="sub"><span class="tag">Wedding</span> Nightgrade Sound · <span class="ph">[BPM RANGE]</span></p>
+      </div>
+    </div>
+    <div class="wave-row">
+      <span class="wave-time" data-elapsed aria-hidden="true">0:00</span>
+      <div class="wave" data-wave aria-hidden="true"><div class="bars"><i style="--h:40%;--i:0"></i><i style="--h:38%;--i:1"></i><i style="--h:49%;--i:2"></i><i style="--h:33%;--i:3"></i><i style="--h:45%;--i:4"></i><i style="--h:47%;--i:5"></i><i style="--h:56%;--i:6"></i><i style="--h:41%;--i:7"></i><i style="--h:51%;--i:8"></i><i style="--h:47%;--i:9"></i><i style="--h:39%;--i:10"></i><i style="--h:66%;--i:11"></i><i style="--h:45%;--i:12"></i><i style="--h:73%;--i:13"></i><i style="--h:67%;--i:14"></i><i style="--h:73%;--i:15"></i><i style="--h:75%;--i:16"></i><i style="--h:45%;--i:17"></i><i style="--h:49%;--i:18"></i><i style="--h:79%;--i:19"></i><i style="--h:54%;--i:20"></i><i style="--h:69%;--i:21"></i><i style="--h:77%;--i:22"></i><i style="--h:58%;--i:23"></i><i style="--h:81%;--i:24"></i><i style="--h:60%;--i:25"></i><i style="--h:73%;--i:26"></i><i style="--h:84%;--i:27"></i><i style="--h:55%;--i:28"></i><i style="--h:62%;--i:29"></i><i style="--h:67%;--i:30"></i><i style="--h:69%;--i:31"></i><i style="--h:81%;--i:32"></i><i style="--h:61%;--i:33"></i><i style="--h:69%;--i:34"></i><i style="--h:77%;--i:35"></i><i style="--h:86%;--i:36"></i><i style="--h:88%;--i:37"></i><i style="--h:59%;--i:38"></i><i style="--h:82%;--i:39"></i><i style="--h:78%;--i:40"></i><i style="--h:87%;--i:41"></i><i style="--h:57%;--i:42"></i><i style="--h:60%;--i:43"></i><i style="--h:55%;--i:44"></i><i style="--h:88%;--i:45"></i><i style="--h:54%;--i:46"></i><i style="--h:56%;--i:47"></i><i style="--h:84%;--i:48"></i><i style="--h:71%;--i:49"></i><i style="--h:75%;--i:50"></i><i style="--h:69%;--i:51"></i><i style="--h:73%;--i:52"></i><i style="--h:64%;--i:53"></i><i style="--h:72%;--i:54"></i><i style="--h:71%;--i:55"></i><i style="--h:37%;--i:56"></i><i style="--h:43%;--i:57"></i><i style="--h:38%;--i:58"></i><i style="--h:29%;--i:59"></i><i style="--h:35%;--i:60"></i><i style="--h:67%;--i:61"></i><i style="--h:62%;--i:62"></i><i style="--h:72%;--i:63"></i><i style="--h:48%;--i:64"></i><i style="--h:49%;--i:65"></i><i style="--h:66%;--i:66"></i><i style="--h:50%;--i:67"></i><i style="--h:37%;--i:68"></i><i style="--h:65%;--i:69"></i><i style="--h:42%;--i:70"></i><i style="--h:38%;--i:71"></i><i style="--h:55%;--i:72"></i><i style="--h:36%;--i:73"></i><i style="--h:33%;--i:74"></i><i style="--h:30%;--i:75"></i><i style="--h:38%;--i:76"></i><i style="--h:29%;--i:77"></i><i style="--h:35%;--i:78"></i><i style="--h:25%;--i:79"></i><i style="--h:41%;--i:80"></i><i style="--h:24%;--i:81"></i><i style="--h:36%;--i:82"></i><i style="--h:28%;--i:83"></i><i style="--h:28%;--i:84"></i><i style="--h:36%;--i:85"></i><i style="--h:37%;--i:86"></i><i style="--h:35%;--i:87"></i><i style="--h:39%;--i:88"></i><i style="--h:26%;--i:89"></i></div><div class="bars played"><i style="--h:40%;--i:0"></i><i style="--h:38%;--i:1"></i><i style="--h:49%;--i:2"></i><i style="--h:33%;--i:3"></i><i style="--h:45%;--i:4"></i><i style="--h:47%;--i:5"></i><i style="--h:56%;--i:6"></i><i style="--h:41%;--i:7"></i><i style="--h:51%;--i:8"></i><i style="--h:47%;--i:9"></i><i style="--h:39%;--i:10"></i><i style="--h:66%;--i:11"></i><i style="--h:45%;--i:12"></i><i style="--h:73%;--i:13"></i><i style="--h:67%;--i:14"></i><i style="--h:73%;--i:15"></i><i style="--h:75%;--i:16"></i><i style="--h:45%;--i:17"></i><i style="--h:49%;--i:18"></i><i style="--h:79%;--i:19"></i><i style="--h:54%;--i:20"></i><i style="--h:69%;--i:21"></i><i style="--h:77%;--i:22"></i><i style="--h:58%;--i:23"></i><i style="--h:81%;--i:24"></i><i style="--h:60%;--i:25"></i><i style="--h:73%;--i:26"></i><i style="--h:84%;--i:27"></i><i style="--h:55%;--i:28"></i><i style="--h:62%;--i:29"></i><i style="--h:67%;--i:30"></i><i style="--h:69%;--i:31"></i><i style="--h:81%;--i:32"></i><i style="--h:61%;--i:33"></i><i style="--h:69%;--i:34"></i><i style="--h:77%;--i:35"></i><i style="--h:86%;--i:36"></i><i style="--h:88%;--i:37"></i><i style="--h:59%;--i:38"></i><i style="--h:82%;--i:39"></i><i style="--h:78%;--i:40"></i><i style="--h:87%;--i:41"></i><i style="--h:57%;--i:42"></i><i style="--h:60%;--i:43"></i><i style="--h:55%;--i:44"></i><i style="--h:88%;--i:45"></i><i style="--h:54%;--i:46"></i><i style="--h:56%;--i:47"></i><i style="--h:84%;--i:48"></i><i style="--h:71%;--i:49"></i><i style="--h:75%;--i:50"></i><i style="--h:69%;--i:51"></i><i style="--h:73%;--i:52"></i><i style="--h:64%;--i:53"></i><i style="--h:72%;--i:54"></i><i style="--h:71%;--i:55"></i><i style="--h:37%;--i:56"></i><i style="--h:43%;--i:57"></i><i style="--h:38%;--i:58"></i><i style="--h:29%;--i:59"></i><i style="--h:35%;--i:60"></i><i style="--h:67%;--i:61"></i><i style="--h:62%;--i:62"></i><i style="--h:72%;--i:63"></i><i style="--h:48%;--i:64"></i><i style="--h:49%;--i:65"></i><i style="--h:66%;--i:66"></i><i style="--h:50%;--i:67"></i><i style="--h:37%;--i:68"></i><i style="--h:65%;--i:69"></i><i style="--h:42%;--i:70"></i><i style="--h:38%;--i:71"></i><i style="--h:55%;--i:72"></i><i style="--h:36%;--i:73"></i><i style="--h:33%;--i:74"></i><i style="--h:30%;--i:75"></i><i style="--h:38%;--i:76"></i><i style="--h:29%;--i:77"></i><i style="--h:35%;--i:78"></i><i style="--h:25%;--i:79"></i><i style="--h:41%;--i:80"></i><i style="--h:24%;--i:81"></i><i style="--h:36%;--i:82"></i><i style="--h:28%;--i:83"></i><i style="--h:28%;--i:84"></i><i style="--h:36%;--i:85"></i><i style="--h:37%;--i:86"></i><i style="--h:35%;--i:87"></i><i style="--h:39%;--i:88"></i><i style="--h:26%;--i:89"></i></div></div>
+      <span class="wave-time dur"><span class="ph">[48:30]</span></span>
+    </div>
+    <div class="player-foot"><span><span class="ph">[AUDIO FILE — client to supply]</span></span><span>Demo tone preview · 0:30</span></div>
+  </div>
+</article><article class="player reveal " style="--d:2" data-player data-key="2">
+  <div class="duo thumb"><img src="https://images.pexels.com/photos/2020432/pexels-photo-2020432.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/2020432/pexels-photo-2020432.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/2020432/pexels-photo-2020432.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/2020432/pexels-photo-2020432.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/2020432/pexels-photo-2020432.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="128px" width="1600" height="1067" alt="Stage lights firing through pink and amber haze beneath a lighting truss" loading="lazy" decoding="async"></div>
+  <div class="player-body">
+    <div class="player-top">
+      <button class="play" type="button" aria-pressed="false" aria-label="Play demo tone preview — Peak Time — Floor Fill"><svg class="i-play" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M7 4.5v15l13-7.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M6 5h4v14H6zM14 5h4v14h-4z" fill="currentColor"/></svg></button>
+      <div>
+        <h3>Peak Time — Floor Fill</h3>
+        <p class="sub"><span class="tag">Private</span> Nightgrade Sound · <span class="ph">[BPM RANGE]</span></p>
+      </div>
+    </div>
+    <div class="wave-row">
+      <span class="wave-time" data-elapsed aria-hidden="true">0:00</span>
+      <div class="wave" data-wave aria-hidden="true"><div class="bars"><i style="--h:26%;--i:0"></i><i style="--h:31%;--i:1"></i><i style="--h:50%;--i:2"></i><i style="--h:45%;--i:3"></i><i style="--h:47%;--i:4"></i><i style="--h:44%;--i:5"></i><i style="--h:49%;--i:6"></i><i style="--h:38%;--i:7"></i><i style="--h:48%;--i:8"></i><i style="--h:56%;--i:9"></i><i style="--h:41%;--i:10"></i><i style="--h:45%;--i:11"></i><i style="--h:53%;--i:12"></i><i style="--h:50%;--i:13"></i><i style="--h:61%;--i:14"></i><i style="--h:42%;--i:15"></i><i style="--h:52%;--i:16"></i><i style="--h:56%;--i:17"></i><i style="--h:59%;--i:18"></i><i style="--h:79%;--i:19"></i><i style="--h:46%;--i:20"></i><i style="--h:71%;--i:21"></i><i style="--h:56%;--i:22"></i><i style="--h:84%;--i:23"></i><i style="--h:77%;--i:24"></i><i style="--h:81%;--i:25"></i><i style="--h:72%;--i:26"></i><i style="--h:60%;--i:27"></i><i style="--h:71%;--i:28"></i><i style="--h:64%;--i:29"></i><i style="--h:51%;--i:30"></i><i style="--h:61%;--i:31"></i><i style="--h:55%;--i:32"></i><i style="--h:78%;--i:33"></i><i style="--h:68%;--i:34"></i><i style="--h:71%;--i:35"></i><i style="--h:67%;--i:36"></i><i style="--h:87%;--i:37"></i><i style="--h:81%;--i:38"></i><i style="--h:53%;--i:39"></i><i style="--h:75%;--i:40"></i><i style="--h:51%;--i:41"></i><i style="--h:89%;--i:42"></i><i style="--h:66%;--i:43"></i><i style="--h:58%;--i:44"></i><i style="--h:62%;--i:45"></i><i style="--h:51%;--i:46"></i><i style="--h:72%;--i:47"></i><i style="--h:70%;--i:48"></i><i style="--h:88%;--i:49"></i><i style="--h:76%;--i:50"></i><i style="--h:63%;--i:51"></i><i style="--h:50%;--i:52"></i><i style="--h:62%;--i:53"></i><i style="--h:77%;--i:54"></i><i style="--h:50%;--i:55"></i><i style="--h:31%;--i:56"></i><i style="--h:26%;--i:57"></i><i style="--h:43%;--i:58"></i><i style="--h:41%;--i:59"></i><i style="--h:32%;--i:60"></i><i style="--h:56%;--i:61"></i><i style="--h:67%;--i:62"></i><i style="--h:48%;--i:63"></i><i style="--h:48%;--i:64"></i><i style="--h:59%;--i:65"></i><i style="--h:47%;--i:66"></i><i style="--h:46%;--i:67"></i><i style="--h:53%;--i:68"></i><i style="--h:60%;--i:69"></i><i style="--h:39%;--i:70"></i><i style="--h:55%;--i:71"></i><i style="--h:45%;--i:72"></i><i style="--h:53%;--i:73"></i><i style="--h:46%;--i:74"></i><i style="--h:47%;--i:75"></i><i style="--h:40%;--i:76"></i><i style="--h:34%;--i:77"></i><i style="--h:27%;--i:78"></i><i style="--h:34%;--i:79"></i><i style="--h:33%;--i:80"></i><i style="--h:42%;--i:81"></i><i style="--h:30%;--i:82"></i><i style="--h:37%;--i:83"></i><i style="--h:41%;--i:84"></i><i style="--h:35%;--i:85"></i><i style="--h:27%;--i:86"></i><i style="--h:32%;--i:87"></i><i style="--h:35%;--i:88"></i><i style="--h:29%;--i:89"></i></div><div class="bars played"><i style="--h:26%;--i:0"></i><i style="--h:31%;--i:1"></i><i style="--h:50%;--i:2"></i><i style="--h:45%;--i:3"></i><i style="--h:47%;--i:4"></i><i style="--h:44%;--i:5"></i><i style="--h:49%;--i:6"></i><i style="--h:38%;--i:7"></i><i style="--h:48%;--i:8"></i><i style="--h:56%;--i:9"></i><i style="--h:41%;--i:10"></i><i style="--h:45%;--i:11"></i><i style="--h:53%;--i:12"></i><i style="--h:50%;--i:13"></i><i style="--h:61%;--i:14"></i><i style="--h:42%;--i:15"></i><i style="--h:52%;--i:16"></i><i style="--h:56%;--i:17"></i><i style="--h:59%;--i:18"></i><i style="--h:79%;--i:19"></i><i style="--h:46%;--i:20"></i><i style="--h:71%;--i:21"></i><i style="--h:56%;--i:22"></i><i style="--h:84%;--i:23"></i><i style="--h:77%;--i:24"></i><i style="--h:81%;--i:25"></i><i style="--h:72%;--i:26"></i><i style="--h:60%;--i:27"></i><i style="--h:71%;--i:28"></i><i style="--h:64%;--i:29"></i><i style="--h:51%;--i:30"></i><i style="--h:61%;--i:31"></i><i style="--h:55%;--i:32"></i><i style="--h:78%;--i:33"></i><i style="--h:68%;--i:34"></i><i style="--h:71%;--i:35"></i><i style="--h:67%;--i:36"></i><i style="--h:87%;--i:37"></i><i style="--h:81%;--i:38"></i><i style="--h:53%;--i:39"></i><i style="--h:75%;--i:40"></i><i style="--h:51%;--i:41"></i><i style="--h:89%;--i:42"></i><i style="--h:66%;--i:43"></i><i style="--h:58%;--i:44"></i><i style="--h:62%;--i:45"></i><i style="--h:51%;--i:46"></i><i style="--h:72%;--i:47"></i><i style="--h:70%;--i:48"></i><i style="--h:88%;--i:49"></i><i style="--h:76%;--i:50"></i><i style="--h:63%;--i:51"></i><i style="--h:50%;--i:52"></i><i style="--h:62%;--i:53"></i><i style="--h:77%;--i:54"></i><i style="--h:50%;--i:55"></i><i style="--h:31%;--i:56"></i><i style="--h:26%;--i:57"></i><i style="--h:43%;--i:58"></i><i style="--h:41%;--i:59"></i><i style="--h:32%;--i:60"></i><i style="--h:56%;--i:61"></i><i style="--h:67%;--i:62"></i><i style="--h:48%;--i:63"></i><i style="--h:48%;--i:64"></i><i style="--h:59%;--i:65"></i><i style="--h:47%;--i:66"></i><i style="--h:46%;--i:67"></i><i style="--h:53%;--i:68"></i><i style="--h:60%;--i:69"></i><i style="--h:39%;--i:70"></i><i style="--h:55%;--i:71"></i><i style="--h:45%;--i:72"></i><i style="--h:53%;--i:73"></i><i style="--h:46%;--i:74"></i><i style="--h:47%;--i:75"></i><i style="--h:40%;--i:76"></i><i style="--h:34%;--i:77"></i><i style="--h:27%;--i:78"></i><i style="--h:34%;--i:79"></i><i style="--h:33%;--i:80"></i><i style="--h:42%;--i:81"></i><i style="--h:30%;--i:82"></i><i style="--h:37%;--i:83"></i><i style="--h:41%;--i:84"></i><i style="--h:35%;--i:85"></i><i style="--h:27%;--i:86"></i><i style="--h:32%;--i:87"></i><i style="--h:35%;--i:88"></i><i style="--h:29%;--i:89"></i></div></div>
+      <span class="wave-time dur"><span class="ph">[55:02]</span></span>
+    </div>
+    <div class="player-foot"><span><span class="ph">[AUDIO FILE — client to supply]</span></span><span>Demo tone preview · 0:30</span></div>
+  </div>
+</article><article class="player reveal " style="--d:3" data-player data-key="3">
+  <div class="duo thumb"><img src="https://images.pexels.com/photos/4722576/pexels-photo-4722576.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/4722576/pexels-photo-4722576.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/4722576/pexels-photo-4722576.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/4722576/pexels-photo-4722576.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/4722576/pexels-photo-4722576.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="128px" width="1600" height="2400" alt="A single spotlight beam through drifting haze" loading="lazy" decoding="async"></div>
+  <div class="player-body">
+    <div class="player-top">
+      <button class="play" type="button" aria-pressed="false" aria-label="Play demo tone preview — Last Forty Minutes"><svg class="i-play" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M7 4.5v15l13-7.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M6 5h4v14H6zM14 5h4v14h-4z" fill="currentColor"/></svg></button>
+      <div>
+        <h3>Last Forty Minutes</h3>
+        <p class="sub"><span class="tag">Wedding</span> Nightgrade Sound · <span class="ph">[BPM RANGE]</span></p>
+      </div>
+    </div>
+    <div class="wave-row">
+      <span class="wave-time" data-elapsed aria-hidden="true">0:00</span>
+      <div class="wave" data-wave aria-hidden="true"><div class="bars"><i style="--h:34%;--i:0"></i><i style="--h:40%;--i:1"></i><i style="--h:41%;--i:2"></i><i style="--h:32%;--i:3"></i><i style="--h:37%;--i:4"></i><i style="--h:42%;--i:5"></i><i style="--h:58%;--i:6"></i><i style="--h:35%;--i:7"></i><i style="--h:36%;--i:8"></i><i style="--h:40%;--i:9"></i><i style="--h:59%;--i:10"></i><i style="--h:69%;--i:11"></i><i style="--h:46%;--i:12"></i><i style="--h:42%;--i:13"></i><i style="--h:72%;--i:14"></i><i style="--h:65%;--i:15"></i><i style="--h:66%;--i:16"></i><i style="--h:46%;--i:17"></i><i style="--h:75%;--i:18"></i><i style="--h:71%;--i:19"></i><i style="--h:52%;--i:20"></i><i style="--h:50%;--i:21"></i><i style="--h:67%;--i:22"></i><i style="--h:62%;--i:23"></i><i style="--h:73%;--i:24"></i><i style="--h:57%;--i:25"></i><i style="--h:87%;--i:26"></i><i style="--h:81%;--i:27"></i><i style="--h:50%;--i:28"></i><i style="--h:57%;--i:29"></i><i style="--h:74%;--i:30"></i><i style="--h:76%;--i:31"></i><i style="--h:87%;--i:32"></i><i style="--h:53%;--i:33"></i><i style="--h:69%;--i:34"></i><i style="--h:71%;--i:35"></i><i style="--h:59%;--i:36"></i><i style="--h:84%;--i:37"></i><i style="--h:82%;--i:38"></i><i style="--h:51%;--i:39"></i><i style="--h:64%;--i:40"></i><i style="--h:78%;--i:41"></i><i style="--h:51%;--i:42"></i><i style="--h:84%;--i:43"></i><i style="--h:69%;--i:44"></i><i style="--h:73%;--i:45"></i><i style="--h:51%;--i:46"></i><i style="--h:64%;--i:47"></i><i style="--h:63%;--i:48"></i><i style="--h:57%;--i:49"></i><i style="--h:83%;--i:50"></i><i style="--h:66%;--i:51"></i><i style="--h:67%;--i:52"></i><i style="--h:56%;--i:53"></i><i style="--h:60%;--i:54"></i><i style="--h:58%;--i:55"></i><i style="--h:39%;--i:56"></i><i style="--h:35%;--i:57"></i><i style="--h:44%;--i:58"></i><i style="--h:24%;--i:59"></i><i style="--h:34%;--i:60"></i><i style="--h:59%;--i:61"></i><i style="--h:50%;--i:62"></i><i style="--h:62%;--i:63"></i><i style="--h:72%;--i:64"></i><i style="--h:47%;--i:65"></i><i style="--h:57%;--i:66"></i><i style="--h:63%;--i:67"></i><i style="--h:66%;--i:68"></i><i style="--h:63%;--i:69"></i><i style="--h:51%;--i:70"></i><i style="--h:34%;--i:71"></i><i style="--h:45%;--i:72"></i><i style="--h:40%;--i:73"></i><i style="--h:45%;--i:74"></i><i style="--h:47%;--i:75"></i><i style="--h:41%;--i:76"></i><i style="--h:29%;--i:77"></i><i style="--h:37%;--i:78"></i><i style="--h:34%;--i:79"></i><i style="--h:27%;--i:80"></i><i style="--h:34%;--i:81"></i><i style="--h:24%;--i:82"></i><i style="--h:34%;--i:83"></i><i style="--h:24%;--i:84"></i><i style="--h:31%;--i:85"></i><i style="--h:37%;--i:86"></i><i style="--h:40%;--i:87"></i><i style="--h:36%;--i:88"></i><i style="--h:23%;--i:89"></i></div><div class="bars played"><i style="--h:34%;--i:0"></i><i style="--h:40%;--i:1"></i><i style="--h:41%;--i:2"></i><i style="--h:32%;--i:3"></i><i style="--h:37%;--i:4"></i><i style="--h:42%;--i:5"></i><i style="--h:58%;--i:6"></i><i style="--h:35%;--i:7"></i><i style="--h:36%;--i:8"></i><i style="--h:40%;--i:9"></i><i style="--h:59%;--i:10"></i><i style="--h:69%;--i:11"></i><i style="--h:46%;--i:12"></i><i style="--h:42%;--i:13"></i><i style="--h:72%;--i:14"></i><i style="--h:65%;--i:15"></i><i style="--h:66%;--i:16"></i><i style="--h:46%;--i:17"></i><i style="--h:75%;--i:18"></i><i style="--h:71%;--i:19"></i><i style="--h:52%;--i:20"></i><i style="--h:50%;--i:21"></i><i style="--h:67%;--i:22"></i><i style="--h:62%;--i:23"></i><i style="--h:73%;--i:24"></i><i style="--h:57%;--i:25"></i><i style="--h:87%;--i:26"></i><i style="--h:81%;--i:27"></i><i style="--h:50%;--i:28"></i><i style="--h:57%;--i:29"></i><i style="--h:74%;--i:30"></i><i style="--h:76%;--i:31"></i><i style="--h:87%;--i:32"></i><i style="--h:53%;--i:33"></i><i style="--h:69%;--i:34"></i><i style="--h:71%;--i:35"></i><i style="--h:59%;--i:36"></i><i style="--h:84%;--i:37"></i><i style="--h:82%;--i:38"></i><i style="--h:51%;--i:39"></i><i style="--h:64%;--i:40"></i><i style="--h:78%;--i:41"></i><i style="--h:51%;--i:42"></i><i style="--h:84%;--i:43"></i><i style="--h:69%;--i:44"></i><i style="--h:73%;--i:45"></i><i style="--h:51%;--i:46"></i><i style="--h:64%;--i:47"></i><i style="--h:63%;--i:48"></i><i style="--h:57%;--i:49"></i><i style="--h:83%;--i:50"></i><i style="--h:66%;--i:51"></i><i style="--h:67%;--i:52"></i><i style="--h:56%;--i:53"></i><i style="--h:60%;--i:54"></i><i style="--h:58%;--i:55"></i><i style="--h:39%;--i:56"></i><i style="--h:35%;--i:57"></i><i style="--h:44%;--i:58"></i><i style="--h:24%;--i:59"></i><i style="--h:34%;--i:60"></i><i style="--h:59%;--i:61"></i><i style="--h:50%;--i:62"></i><i style="--h:62%;--i:63"></i><i style="--h:72%;--i:64"></i><i style="--h:47%;--i:65"></i><i style="--h:57%;--i:66"></i><i style="--h:63%;--i:67"></i><i style="--h:66%;--i:68"></i><i style="--h:63%;--i:69"></i><i style="--h:51%;--i:70"></i><i style="--h:34%;--i:71"></i><i style="--h:45%;--i:72"></i><i style="--h:40%;--i:73"></i><i style="--h:45%;--i:74"></i><i style="--h:47%;--i:75"></i><i style="--h:41%;--i:76"></i><i style="--h:29%;--i:77"></i><i style="--h:37%;--i:78"></i><i style="--h:34%;--i:79"></i><i style="--h:27%;--i:80"></i><i style="--h:34%;--i:81"></i><i style="--h:24%;--i:82"></i><i style="--h:34%;--i:83"></i><i style="--h:24%;--i:84"></i><i style="--h:31%;--i:85"></i><i style="--h:37%;--i:86"></i><i style="--h:40%;--i:87"></i><i style="--h:36%;--i:88"></i><i style="--h:23%;--i:89"></i></div></div>
+      <span class="wave-time dur"><span class="ph">[40:00]</span></span>
+    </div>
+    <div class="player-foot"><span><span class="ph">[AUDIO FILE — client to supply]</span></span><span>Demo tone preview · 0:30</span></div>
+  </div>
+</article></div>
+    <div style="margin-top:36px"><a class="btn btn-pill" href="media.html#mixes">All mixes <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></a></div>
+  </div>
+</section>
+
+<section class="section video cut" data-cut aria-labelledby="video-h">
+  <div class="wrap"><div class="s-head" style="text-align:center;justify-items:center"><p class="eyebrow label">On the floor</p><h2 class="h-l" id="video-h">Featured video</h2></div></div>
+  <div class="carousel" data-carousel aria-roledescription="carousel" aria-label="Featured video" data-captions="Reception recap — dinner to last call · WEDDING|Gala walk-in to awards · CORPORATE|Loft party — set highlights · PRIVATE">
+    <div class="car-viewport"><div class="car-inner"><div class="car-stage"><div class="car-slide" data-slide aria-roledescription="slide" aria-label="1 of 3">
+        <div class="duo"><img src="https://images.pexels.com/photos/8448570/pexels-photo-8448570.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/8448570/pexels-photo-8448570.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/8448570/pexels-photo-8448570.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/8448570/pexels-photo-8448570.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/8448570/pexels-photo-8448570.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 900px) 62vw, 100vw" width="1600" height="1067" alt="A DJ silhouetted behind a booth as blue beams cut through haze" loading="eager" decoding="async"></div>
+        <span class="car-label"><span class="ph">[VIDEO — client to supply]</span></span>
+        <button class="car-poster-btn" type="button" data-video aria-label="Play video: Reception recap — dinner to last call (placeholder)"><span class="big-play"><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M7 4.5v15l13-7.5z" fill="currentColor"/></svg></span></button>
+      </div><div class="car-slide" data-slide aria-roledescription="slide" aria-label="2 of 3">
+        <div class="duo"><img src="https://images.pexels.com/photos/8448560/pexels-photo-8448560.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/8448560/pexels-photo-8448560.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/8448560/pexels-photo-8448560.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/8448560/pexels-photo-8448560.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/8448560/pexels-photo-8448560.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 900px) 62vw, 100vw" width="1600" height="1067" alt="A DJ silhouetted at a long booth against an orange-lit backdrop" loading="eager" decoding="async"></div>
+        <span class="car-label"><span class="ph">[VIDEO — client to supply]</span></span>
+        <button class="car-poster-btn" type="button" data-video aria-label="Play video: Gala walk-in to awards (placeholder)"><span class="big-play"><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M7 4.5v15l13-7.5z" fill="currentColor"/></svg></span></button>
+      </div><div class="car-slide" data-slide aria-roledescription="slide" aria-label="3 of 3">
+        <div class="duo"><img src="https://images.pexels.com/photos/18527859/pexels-photo-18527859.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/18527859/pexels-photo-18527859.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/18527859/pexels-photo-18527859.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/18527859/pexels-photo-18527859.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/18527859/pexels-photo-18527859.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 900px) 62vw, 100vw" width="1600" height="1067" alt="A DJ silhouetted at a booth in front of bright white light beams" loading="eager" decoding="async"></div>
+        <span class="car-label"><span class="ph">[VIDEO — client to supply]</span></span>
+        <button class="car-poster-btn" type="button" data-video aria-label="Play video: Loft party — set highlights (placeholder)"><span class="big-play"><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M7 4.5v15l13-7.5z" fill="currentColor"/></svg></span></button>
+      </div></div></div></div>
+    <button class="car-ctrl prev" type="button" data-car-prev aria-label="Previous video"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></button>
+    <button class="car-ctrl next" type="button" data-car-next aria-label="Next video"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></button>
+  </div>
+  <div class="wrap">
+    <div class="car-caption" aria-live="polite"><h3 data-car-cap>Reception recap — dinner to last call · WEDDING</h3><p><span class="ph">[VIDEO — client to supply]</span> · nothing autoplays</p></div>
+    <p class="video-msg" data-video-msg role="status"></p>
+    <div class="car-foot"><a class="btn btn-pill" href="media.html#video">See all video <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></a></div>
+  </div>
+</section>
+
+<section class="signal on-violet cut" data-cut aria-labelledby="signal-h">
+  <div class="signal-grid">
+    <div class="signal-photo"><div class="duo"><img src="https://images.pexels.com/photos/9271247/pexels-photo-9271247.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/9271247/pexels-photo-9271247.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/9271247/pexels-photo-9271247.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/9271247/pexels-photo-9271247.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/9271247/pexels-photo-9271247.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 900px) 50vw, 100vw" width="1600" height="1067" alt="A moving light throwing sharp beams across a truss-lined ceiling" loading="lazy" decoding="async"></div></div>
+    <div class="signal-copy">
+      <p class="dateline"><span class="ph">[NEXT AVAILABLE WEEKEND — CONFIRM]</span></p>
+      <h2 class="h-l" id="signal-h">Your Saturday<br>might still be open</h2>
+      <p><span class="ph">[PLACEHOLDER: 2 sentences — client to supply]</span></p>
+      <a class="btn btn-pill" href="#availability">See the calendar <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="section avail avail-2 cut cut-rev" data-cut id="availability" aria-labelledby="avail-h">
+  <div class="wrap avail-grid">
+    <div class="avail-side">
+      <p class="eyebrow label">Availability</p>
+      <h2 class="h-l" id="avail-h">Is your date free?</h2>
+      <p style="margin-top:18px">Pick a date. Lime means it’s open; violet means someone has a hold on it. Choose an open date and it drops straight into the booking form.</p>
+      <ul class="terms">
+        <li><span class="k">Booking window</span><span class="ph">[BOOKING WINDOW — CONFIRM]</span></li>
+        <li><span class="k">Holding a date</span><span class="ph">[DEPOSIT TO HOLD A DATE — CONFIRM]</span></li>
+      </ul>
+    </div>
+    <div class="avail-cal"><div class="cal" data-cal data-months="1">
+  <div class="cal-bar">
+    <button class="cal-nav" type="button" data-cal-prev aria-label="Previous month"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></button>
+    <span class="cal-range" data-cal-range aria-live="polite">Loading calendar</span>
+    <button class="cal-nav" type="button" data-cal-next aria-label="Next month"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></button>
+  </div>
+  <div class="cal-months" data-cal-months><noscript><p class="cal-note">The live calendar needs JavaScript. Use the event date field in the booking form.</p></noscript></div>
+  <div class="cal-legend" aria-label="Legend"><span><i class="k-av"></i>Available</span><span><i class="k-held"></i>Held</span><span><i class="k-booked"></i><s>Booked</s></span><span><i class="k-win"></i>[BOOKING WINDOW — CONFIRM]</span></div>
+  <p class="cal-note"><span class="ph">[CALENDAR IS A DEMO — real availability syncs from the DJ's calendar]</span></p>
+</div><p class="cal-status" data-cal-status role="status"></p></div>
+  </div>
+</section>
+
+<section class="section tiers-sec cut" id="packages" aria-labelledby="tiers-h" data-cut>
+  <div class="wrap">
+    <div class="s-head s-head-row">
+      <div><p class="eyebrow label">Packages</p><h2 class="h-l" id="tiers-h">The price, and the rig behind it</h2></div>
+      <p class="muted">Three packages, priced up front, specified by equipment and hours. <a class="textlink" href="packages.html" >Full comparison</a></p>
+    </div>
+    <div class="tiers">
+  <div class="tier reveal" style="--d:0" id="tier-essential">
+    <h3>Essential</h3>
+    <p class="price">$<span class="ph">[TIER 1 PRICE]</span></p>
+    <p class="hours"><span class="ph">[HOURS — CONFIRM]</span> of music · sound + DJ</p>
+    <ul class="manifest" aria-label="Essential equipment manifest"><li><span>Speakers</span><span><span class="ph">[2× powered 12" tops]</span></span></li><li><span>Subwoofer</span><span><span class="ph">[1× 15" sub]</span></span></li><li><span>DJ booth</span><span><span class="ph">[black facade booth]</span></span></li><li><span>Wireless mics</span><span><span class="ph">[1×]</span></span></li><li><span>Floor lighting</span><span><span class="ph">[2× wash bars]</span></span></li><li><span>Uplighting</span><span><span class="ph">[none]</span></span></li><li><span>Fog / haze</span><span><span class="ph">[none]</span></span></li><li><span>Backup rig</span><span><span class="ph">[backup playback]</span></span></li></ul>
+    <a class="btn btn-cta btn-block" href="#book" data-package="essential">Book Essential <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></a>
+  </div>
+  <div class="tier featured reveal" style="--d:1" id="tier-signature">
+    <span class="most">MOST BOOKED [CONFIRM]</span>
+    <h3>Signature</h3>
+    <p class="price">$<span class="ph">[TIER 2 PRICE]</span></p>
+    <p class="hours"><span class="ph">[HOURS — CONFIRM]</span> · sound, lighting, MC</p>
+    <ul class="manifest" aria-label="Signature equipment manifest"><li><span>Speakers</span><span><span class="ph">[2× powered 15" tops]</span></span></li><li><span>Subwoofer</span><span><span class="ph">[1× 18" sub]</span></span></li><li><span>DJ booth</span><span><span class="ph">[white facade booth]</span></span></li><li><span>Wireless mics</span><span><span class="ph">[2×]</span></span></li><li><span>Floor lighting</span><span><span class="ph">[4× moving heads]</span></span></li><li><span>Uplighting</span><span><span class="ph">[8× uplights]</span></span></li><li><span>Fog / haze</span><span><span class="ph">[1× hazer — venue permitting]</span></span></li><li><span>Backup rig</span><span><span class="ph">[duplicate playback]</span></span></li></ul>
+    <a class="btn btn-cta btn-block" href="#book" data-package="signature">Book Signature <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></a>
+  </div>
+  <div class="tier reveal" style="--d:2" id="tier-full">
+    <h3>Full Production</h3>
+    <p class="price">$<span class="ph">[TIER 3 PRICE]</span></p>
+    <p class="hours"><span class="ph">[HOURS — CONFIRM]</span> · full rig, ceremony to last call</p>
+    <ul class="manifest" aria-label="Full Production equipment manifest"><li><span>Speakers</span><span><span class="ph">[4× powered 15" tops]</span></span></li><li><span>Subwoofer</span><span><span class="ph">[2× 18" subs]</span></span></li><li><span>DJ booth</span><span><span class="ph">[custom facade booth]</span></span></li><li><span>Wireless mics</span><span><span class="ph">[3×]</span></span></li><li><span>Floor lighting</span><span><span class="ph">[8× moving heads + truss]</span></span></li><li><span>Uplighting</span><span><span class="ph">[16× uplights]</span></span></li><li><span>Fog / haze</span><span><span class="ph">[haze + low fog — venue approval]</span></span></li><li><span>Backup rig</span><span><span class="ph">[full duplicate rig]</span></span></li></ul>
+    <a class="btn btn-cta btn-block" href="#book" data-package="full">Book Full Production <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></a>
+  </div>
+</div>
+    <div class="addons">
+  <div>
+    <h3 class="h-s" style="margin-bottom:18px">Add-ons</h3>
+    <ul class="pricelist"><li><span class="n">Extra hour<small>Beyond the package hours</small></span><span class="v">$<span class="ph">[PRICE]</span></span></li><li><span class="n">Ceremony sound<small>Separate speaker + mic for the ceremony</small></span><span class="v">$<span class="ph">[PRICE]</span></span></li><li><span class="n">Uplighting<small>Wall wash in your colour</small></span><span class="v">$<span class="ph">[PRICE]</span></span></li><li><span class="n">Cold sparks<small><span class="ph">[VENUE APPROVAL REQUIRED — CONFIRM]</span></small></span><span class="v">$<span class="ph">[PRICE]</span></span></li><li><span class="n">Photo booth<small>Operated, with prints or digital</small></span><span class="v">$<span class="ph">[PRICE]</span></span></li><li><span class="n">MC only<small>Announcements and running order, no DJ</small></span><span class="v">$<span class="ph">[PRICE]</span></span></li></ul>
+  </div>
+  <div>
+    <h3 class="h-s" style="margin-bottom:18px">The small print, in writing</h3>
+    <ul class="termslist">
+      <li><span class="k">Travel</span><span class="ph">[TRAVEL BEYOND METRO — CONFIRM]</span></li>
+      <li><span class="k">Overtime</span><span class="ph">[OVERTIME RATE — CONFIRM]</span></li>
+      <li><span class="k">Deposit &amp; balance</span><span class="ph">[DEPOSIT &amp; BALANCE SCHEDULE — CONFIRM]</span></li>
+      <li><span class="k">Insurance</span><span class="ph">[LIABILITY INSURANCE — CONFIRM]</span> <span class="muted">Many venues ask for a certificate — we send it on request.</span></li>
+    </ul>
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="played on-violet cut cut-rev" data-cut id="played" aria-labelledby="played-h">
+  <div class="played-grid">
+    <div class="played-list scan">
+      <p class="eyebrow label">Recently played</p>
+      <h2 class="h-l" id="played-h">Past events</h2>
+      <ul class="ev"><li><span class="d"><span class="ph">[EVENT DATE]</span> · WEDDING</span><span class="v">THE VANTILE ROOM</span><span class="t"><span class="ph">[TOWN, ST]</span></span><span class="chev"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></li><li><span class="d"><span class="ph">[EVENT DATE]</span> · CORPORATE</span><span class="v">ORRWICK HALL</span><span class="t"><span class="ph">[TOWN, ST]</span></span><span class="chev"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></li><li><span class="d"><span class="ph">[EVENT DATE]</span> · PRIVATE</span><span class="v">DRAYMARK LOFT</span><span class="t"><span class="ph">[TOWN, ST]</span></span><span class="chev"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></li><li><span class="d"><span class="ph">[EVENT DATE]</span> · WEDDING</span><span class="v">CASTELVANE ESTATE</span><span class="t"><span class="ph">[TOWN, ST]</span></span><span class="chev"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></li><li><span class="d"><span class="ph">[EVENT DATE]</span> · WEDDING</span><span class="v">HOLLENBY BARN</span><span class="t"><span class="ph">[TOWN, ST]</span></span><span class="chev"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></li><li><span class="d"><span class="ph">[EVENT DATE]</span> · CORPORATE</span><span class="v">QUILLMORE GALLERY</span><span class="t"><span class="ph">[TOWN, ST]</span></span><span class="chev"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></li></ul>
+      <p class="played-note">Venue names are invented demo type — <span class="ph">[REAL PAST EVENTS — client to supply]</span></p>
+    </div>
+    <div class="played-photo on-light">
+      <div class="duo r-32"><img src="https://images.pexels.com/photos/37975405/pexels-photo-37975405.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/37975405/pexels-photo-37975405.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/37975405/pexels-photo-37975405.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/37975405/pexels-photo-37975405.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/37975405/pexels-photo-37975405.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 960px) 50vw, 100vw" width="1600" height="1202" alt="An empty stage area with white beams, amber fixtures and a floral border reflected on a glossy floor" loading="lazy" decoding="async"></div>
+      <p class="frame-note" style="color:#3A3D44">An empty room with the rig running, before doors.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section playlist cut" data-cut aria-labelledby="pl-h">
+  <div class="wrap pl-grid">
+    <div>
+      <p class="eyebrow label">Your music, planned together</p>
+      <h2 class="h-l" id="pl-h">Playlist planning</h2>
+      <p style="margin:18px 0 28px"><span class="ph">[PLACEHOLDER: 2 sentences on how planning works — client to supply]</span></p>
+      <ol class="steps">
+        <li><span class="n">01</span><div><h3>Share your must-plays</h3><p>The songs that make it your night — the entrance, the first dance, the last song.</p></div></li>
+        <li><span class="n">02</span><div><h3>Mark your do-not-plays</h3><p>Just as important. Anything on this list stays off, whatever gets requested.</p></div></li>
+        <li><span class="n">03</span><div><h3><span class="ph">[PLANNING CALL TIMING — CONFIRM]</span></h3><p>A short call to run the order of the night with you and the venue.</p></div></li>
+      </ol>
+    </div>
+    <figure class="mock reveal" style="margin:0">
+      <div class="mock-bar" aria-hidden="true"><span class="on">Must-play</span><span>Do-not-play</span><span>Moments</span></div>
+      <ol>
+        <li><span><span class="ph">[TRACK 1 — client's list]</span></span><span class="m">Entrance</span></li>
+        <li><span><span class="ph">[TRACK 2 — client's list]</span></span><span class="m">First dance</span></li>
+        <li><span><span class="ph">[TRACK 3 — client's list]</span></span><span class="m">Cake</span></li>
+        <li><span><span class="ph">[TRACK 4 — client's list]</span></span><span class="m no">Do not play</span></li>
+        <li><span><span class="ph">[TRACK 5 — client's list]</span></span><span class="m">Last song</span></li>
+      </ol>
+      <figcaption>Illustration of the planner — every entry is a placeholder until the client fills it in.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="about-strip cut" data-cut aria-labelledby="about-h">
+  <div class="about-grid">
+    <div class="duo"><img src="https://images.pexels.com/photos/39496937/pexels-photo-39496937.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/39496937/pexels-photo-39496937.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/39496937/pexels-photo-39496937.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/39496937/pexels-photo-39496937.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/39496937/pexels-photo-39496937.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 900px) 50vw, 100vw" width="1600" height="1200" alt="Close-up of metal latches and handles on a black road case" loading="lazy" decoding="async"></div>
+    <div class="about-copy">
+      <p class="eyebrow label">Behind the booth</p>
+      <h2 class="h-l" id="about-h">About Nightgrade</h2>
+      <p><span class="ph">[PLACEHOLDER: 3 sentences — client to supply]</span></p>
+      <a class="btn btn-pill" href="about.html">More <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="section reviews cut cut-rev" data-cut aria-labelledby="rev-h">
+  <div class="wrap">
+    <div class="s-head s-head-row">
+      <div><p class="eyebrow label">In their words</p><h2 class="h-l" id="rev-h">Reviews</h2></div>
+      <p class="muted">Real client words only, collected after each event. No ratings, no scores — just what they said, with their permission.</p>
+    </div>
+    <div class="rev-grid"><figure class="rev reveal" style="--d:0"><blockquote><span class="q" aria-hidden="true">“</span><span class="ph">[COLLECT: client words — client to supply]</span></blockquote><figcaption><cite><span class="ph">[COLLECT: name, event type, month]</span></cite></figcaption></figure><figure class="rev reveal" style="--d:1"><blockquote><span class="q" aria-hidden="true">“</span><span class="ph">[COLLECT: client words — client to supply]</span></blockquote><figcaption><cite><span class="ph">[COLLECT: name, event type, month]</span></cite></figcaption></figure><figure class="rev reveal" style="--d:2"><blockquote><span class="q" aria-hidden="true">“</span><span class="ph">[COLLECT: client words — client to supply]</span></blockquote><figcaption><cite><span class="ph">[COLLECT: name, event type, month]</span></cite></figcaption></figure></div>
+  </div>
+</section>
+
+<section class="mosaic-sec" aria-label="Photo mosaic">
+  <div class="mosaic"><div class="duo lift t-b"><img src="https://images.pexels.com/photos/1481310/pexels-photo-1481310.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/1481310/pexels-photo-1481310.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/1481310/pexels-photo-1481310.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/1481310/pexels-photo-1481310.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/1481310/pexels-photo-1481310.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 1200px) 33vw, (min-width: 760px) 50vw, 100vw" width="1600" height="1067" alt="Close-up of a DJ controller&#x27;s jog wheel and pads under teal light" loading="lazy" decoding="async"></div><div class="duo lift t-t"><img src="https://images.pexels.com/photos/37975399/pexels-photo-37975399.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/37975399/pexels-photo-37975399.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/37975399/pexels-photo-37975399.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/37975399/pexels-photo-37975399.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/37975399/pexels-photo-37975399.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 1200px) 33vw, (min-width: 760px) 50vw, 100vw" width="1600" height="2400" alt="Long dinner tables beside an empty dance floor lit with patterned gobo light and haze" loading="lazy" decoding="async"></div><div class="duo lift t-w"><img src="https://images.pexels.com/photos/7271798/pexels-photo-7271798.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/7271798/pexels-photo-7271798.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/7271798/pexels-photo-7271798.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/7271798/pexels-photo-7271798.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/7271798/pexels-photo-7271798.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 1200px) 33vw, (min-width: 760px) 50vw, 100vw" width="1600" height="1067" alt="A circular lighting rig with a mirror ball at its centre, framed by red neon lines" loading="lazy" decoding="async"></div><div class="duo lift"><img src="https://images.pexels.com/photos/11802020/pexels-photo-11802020.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/11802020/pexels-photo-11802020.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/11802020/pexels-photo-11802020.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/11802020/pexels-photo-11802020.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/11802020/pexels-photo-11802020.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 1200px) 33vw, (min-width: 760px) 50vw, 100vw" width="1600" height="2400" alt="Two mirror balls hanging in darkness, catching points of light" loading="lazy" decoding="async"></div><div class="duo lift t-w"><img src="https://images.pexels.com/photos/12795371/pexels-photo-12795371.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/12795371/pexels-photo-12795371.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/12795371/pexels-photo-12795371.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/12795371/pexels-photo-12795371.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/12795371/pexels-photo-12795371.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 1200px) 33vw, (min-width: 760px) 50vw, 100vw" width="1600" height="1067" alt="Close-up of mixer faders and knobs in muted light" loading="lazy" decoding="async"></div><div class="duo lift"><img src="https://images.pexels.com/photos/34927042/pexels-photo-34927042.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/34927042/pexels-photo-34927042.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/34927042/pexels-photo-34927042.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/34927042/pexels-photo-34927042.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/34927042/pexels-photo-34927042.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 1200px) 33vw, (min-width: 760px) 50vw, 100vw" width="1600" height="1067" alt="A mirror ball emerging from darkness" loading="lazy" decoding="async"></div><div class="duo lift t-w"><img src="https://images.pexels.com/photos/11114649/pexels-photo-11114649.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/11114649/pexels-photo-11114649.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/11114649/pexels-photo-11114649.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/11114649/pexels-photo-11114649.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/11114649/pexels-photo-11114649.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 1200px) 33vw, (min-width: 760px) 50vw, 100vw" width="1600" height="1067" alt="Black-and-white close-up of a hand adjusting a DJ mixer&#x27;s knobs" loading="lazy" decoding="async"></div><div class="duo lift t-t"><img src="https://images.pexels.com/photos/36098639/pexels-photo-36098639.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/36098639/pexels-photo-36098639.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/36098639/pexels-photo-36098639.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/36098639/pexels-photo-36098639.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/36098639/pexels-photo-36098639.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 1200px) 33vw, (min-width: 760px) 50vw, 100vw" width="1600" height="2131" alt="A hand on a DJ controller&#x27;s performance pads beside a lit jog wheel" loading="lazy" decoding="async"></div><div class="duo lift t-b"><img src="https://images.pexels.com/photos/10809862/pexels-photo-10809862.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/10809862/pexels-photo-10809862.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/10809862/pexels-photo-10809862.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/10809862/pexels-photo-10809862.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/10809862/pexels-photo-10809862.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 1200px) 33vw, (min-width: 760px) 50vw, 100vw" width="1600" height="2400" alt="Moving-head lights on a truss firing orange beams into blue haze" loading="lazy" decoding="async"></div><div class="duo lift t-t"><img src="https://images.pexels.com/photos/19900397/pexels-photo-19900397.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/19900397/pexels-photo-19900397.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/19900397/pexels-photo-19900397.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/19900397/pexels-photo-19900397.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/19900397/pexels-photo-19900397.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 1200px) 33vw, (min-width: 760px) 50vw, 100vw" width="1600" height="2133" alt="Mirror balls of different sizes lit in purple" loading="lazy" decoding="async"></div><div class="duo lift t-w"><img src="https://images.pexels.com/photos/13312280/pexels-photo-13312280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024" srcset="https://images.pexels.com/photos/13312280/pexels-photo-13312280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/13312280/pexels-photo-13312280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/13312280/pexels-photo-13312280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/13312280/pexels-photo-13312280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w" sizes="(min-width: 1200px) 33vw, (min-width: 760px) 50vw, 100vw" width="1600" height="1067" alt="Two stage spotlights close up against a warm backdrop" loading="lazy" decoding="async"></div></div>
+</section>
+
+<section class="section booking scan cut" data-cut id="book" aria-labelledby="book-h">
+  <div class="wrap book-grid">
+    <div class="book-aside">
+      <p class="eyebrow label">Booking</p>
+      <h2 class="h-l" id="book-h">Book your date</h2>
+      <p style="margin-top:18px">Pick the date, the package and the times. Nobody has to call anybody — the details below are everything we need to confirm.</p>
+      <ul class="termslist" style="margin-top:24px">
+        <li><span class="k">To hold a date</span><span class="ph">[DEPOSIT TO HOLD A DATE — CONFIRM]</span></li>
+        <li><span class="k">Booking window</span><span class="ph">[BOOKING WINDOW — CONFIRM]</span></li>
+        <li><span class="k">We reply</span><span class="ph">[RESPONSE EXPECTATION — CONFIRM]</span></li>
+      </ul>
+      <p style="margin-top:22px"><a class="textlink" href="book.html">Open the full calendar <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></a></p>
+    </div>
+    <div>
+      <div class="sel-date" aria-live="polite" data-seldate><span class="k">SELECTED DATE</span> <b data-seldate-text>None yet — pick one on the calendar or below</b></div>
+      <form class="form" data-bookform novalidate>
+        <div class="fgrid three">
+          <div class="field"><label for="bf-name">Name <span class="req" aria-hidden="true">*</span></label><input id="bf-name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="bf-email">Email <span class="req" aria-hidden="true">*</span></label><input id="bf-email" name="email" type="email" autocomplete="email" required></div>
+          <div class="field"><label for="bf-phone">Phone <span class="req" aria-hidden="true">*</span></label><input id="bf-phone" name="phone" type="tel" autocomplete="tel" required></div>
+        </div>
+        <div class="fgrid two">
+          <div class="field"><label for="bf-date">Event date <span class="req" aria-hidden="true">*</span></label><input id="bf-date" name="date" type="date" required data-datefield><p class="hint">Filled from the calendar when you pick a date.</p></div>
+          <fieldset class="fset"><legend>Event type <span class="req" aria-hidden="true">*</span></legend>
+            <div class="opts" data-group="etype">
+              <label class="opt"><input type="radio" name="etype" value="Wedding" required><span>Wedding</span></label>
+              <label class="opt"><input type="radio" name="etype" value="Corporate"><span>Corporate</span></label>
+              <label class="opt"><input type="radio" name="etype" value="Private"><span>Private</span></label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="fgrid two">
+          <div class="field"><label for="bf-venue">Venue name</label><input id="bf-venue" name="venue" type="text" placeholder="[VENUE NAME — free text]"><label class="check" style="min-height:auto;padding:4px 0"><input type="checkbox" name="novenue" data-novenue><span>Not booked yet</span></label></div>
+          <div class="field"><label for="bf-town">Venue town <span class="req" aria-hidden="true">*</span></label><input id="bf-town" name="town" type="text" autocomplete="address-level2" required></div>
+        </div>
+        <div class="fgrid three">
+          <div class="field"><label for="bf-start">Start time <span class="req" aria-hidden="true">*</span></label><input id="bf-start" name="start" type="time" required data-start></div>
+          <div class="field"><label for="bf-end">End time <span class="req" aria-hidden="true">*</span></label><input id="bf-end" name="end" type="time" required data-end></div>
+          <div class="field"><span class="label" style="font-size:.9375rem" id="bf-len-l">Event length</span><output class="calc-out" data-length aria-labelledby="bf-len-l">Set start and end</output></div>
+        </div>
+        <p class="hint" style="margin-top:-10px">Times drive the hours tier: package hours are <span class="ph">[HOURS INCLUDED — CONFIRM]</span>; time beyond is <span class="ph">[OVERTIME RATE — CONFIRM]</span>.</p>
+        <div class="fgrid two">
+          <div class="field"><label for="bf-guests">Guest headcount <span class="req" aria-hidden="true">*</span></label>
+            <select id="bf-guests" name="guests" required><option value="">Choose a band</option><option>Under 50</option><option>50 – 100</option><option>100 – 150</option><option>150 – 250</option><option>250 +</option></select>
+            <p class="hint"><span class="ph">[HEADCOUNT BANDS — CONFIRM]</span></p></div>
+          <div class="field"><label for="bf-package">Package <span class="req" aria-hidden="true">*</span></label>
+            <select id="bf-package" name="package" required data-packagefield><option value="">Choose a package</option><option value="essential">Essential — $[TIER 1 PRICE]</option><option value="signature">Signature — $[TIER 2 PRICE]</option><option value="full">Full Production — $[TIER 3 PRICE]</option><option value="unsure">Not sure yet — help me choose</option></select>
+            <p class="hint"><a href="packages.html" class="textlink">Compare packages</a></p></div>
+        </div>
+        <fieldset class="fset"><legend>Add-ons</legend><div class="checks"><label class="check"><input type="checkbox" name="addons" value="Extra hour"><span>Extra hour <span class="pr">$<span class="ph">[PRICE]</span></span></span></label><label class="check"><input type="checkbox" name="addons" value="Ceremony sound"><span>Ceremony sound <span class="pr">$<span class="ph">[PRICE]</span></span></span></label><label class="check"><input type="checkbox" name="addons" value="Uplighting"><span>Uplighting <span class="pr">$<span class="ph">[PRICE]</span></span></span></label><label class="check"><input type="checkbox" name="addons" value="Cold sparks"><span>Cold sparks <span class="pr">$<span class="ph">[PRICE]</span></span></span></label><label class="check"><input type="checkbox" name="addons" value="Photo booth"><span>Photo booth <span class="pr">$<span class="ph">[PRICE]</span></span></span></label><label class="check"><input type="checkbox" name="addons" value="MC only"><span>MC only <span class="pr">$<span class="ph">[PRICE]</span></span></span></label></div></fieldset>
+        <fieldset class="fset"><legend>Does the venue have a sound limiter or power restriction? <span class="req" aria-hidden="true">*</span></legend>
+          <div class="opts" data-group="limiter">
+            <label class="opt"><input type="radio" name="limiter" value="Yes" required><span>Yes</span></label>
+            <label class="opt"><input type="radio" name="limiter" value="No"><span>No</span></label>
+            <label class="opt"><input type="radio" name="limiter" value="Not sure"><span>Not sure</span></label>
+          </div>
+          <p class="hint">Many venues cap volume or share one circuit — knowing now decides the rig.</p>
+        </fieldset>
+        <div class="field"><label for="bf-notes">Anything we should know</label><textarea id="bf-notes" name="notes"></textarea></div>
+        <label class="check"><input type="checkbox" name="consent" required data-consent><span>I agree that Nightgrade Sound can use these details to reply about this booking. See the <a href="privacy.html">privacy notice</a>.</span></label>
+        <div class="form-foot">
+          <p class="err" data-formerr role="alert" hidden></p>
+          <button class="btn btn-cta" type="submit">Book this date <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></button>
+          <div class="notes"><span><span class="ph">[RESPONSE EXPECTATION — CONFIRM]</span></span><span>Demo form — nothing is sent, no payment is taken on this page.</span></div>
+        </div>
+      </form>
+      <div class="confirm" data-confirm hidden tabindex="-1"></div>
+    </div>
+  </div>
+</section>
+</main>
+<div class="foot-strip" id="social">
+  <div class="wrap">
+    <p class="label" style="margin:0">Follow the sets <span class="ph">[SOCIAL LINKS — CONFIRM]</span></p>
+    <div class="foot-social"><a href="#social" aria-label="Photo profile — link to confirm"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="16" y="6" width="2" height="2" fill="currentColor"/></svg></a><a href="#social" aria-label="Video channel — link to confirm"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><rect x="2.5" y="5.5" width="19" height="13" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 9v6l5-3z" fill="currentColor"/></svg></a><a href="#social" aria-label="Mix archive profile — link to confirm"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M3 12h2M7 8v8M11 5v14M15 9v6M19 7v10M21 12h1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></a></div>
+  </div>
+</div>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-word">Nightgrade Sound</span></a>
+        <p class="muted" style="margin-top:14px;max-width:30em">Mobile DJ and event entertainment — weddings, corporate events and private parties. Booking across <span class="ph">[METRO AREA — CONFIRM]</span>, <span class="ph">[STATE]</span>.</p>
+      </div>
+      <div>
+        <h2>Site</h2>
+        <ul class="foot-list">
+          <li><a href="media.html">Mixes &amp; media</a></li>
+          <li><a href="packages.html">Packages &amp; pricing</a></li>
+          <li><a href="book.html">Availability &amp; booking</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Business</h2>
+        <ul class="foot-contact">
+          <li><span class="ph">[BUSINESS ENTITY / STATE — CONFIRM]</span></li>
+          <li><span class="ph">[EMAIL — CONFIRM]</span></li>
+          <li><span class="ph">[PHONE — CONFIRM]</span></li>
+          <li><span class="ph">[SERVICE RADIUS — CONFIRM]</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>© <span data-year>2026</span> Nightgrade Sound — a fictional demo business. No real company is depicted.</span>
+      <span class="foot-demo">DEMO — ThinkFirst Studios · [Your name here]</span>
+    </div>
+  </div>
+</footer>
+<div class="demo-marker" aria-hidden="true">DEMO — ThinkFirst Studios · [Your name here]</div>
+<div class="mbar"><a href="book.html" data-checkdate>Check a date <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></a></div>
+<div class="toast" role="status" aria-live="polite" data-toast></div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+# Internal — briefs, standards and build notes are not published.
+# Matches the convention in thinkfirststudios/solar-demos.
+PROMPT.md
+**/PROMPT.md
+PASTE-THIS-*.txt
+_BUILD-STANDARDS.md
+LEAD-NOTES.md
+**/LEAD-NOTES.md
+
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Check dates &amp; book — Lanternwood Pet Lodge (Demo)</title>
+<meta name="description" content="Demo template: book boarding with a date-range calendar, daycare by the day, or request an extended stay — with availability, suite choice and a live estimate.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#131A2E">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.pexels.com">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js-reveal');setTimeout(function(){if(!window.__lwReady)document.documentElement.classList.remove('js-reveal');},2500);</script>
+<script>window.LW_RATES={tiers:{run:{name:"Kennel Run",rate:58},suite:{name:"Suite",rate:72},lodge:{name:"Lodge Suite",rate:89},family:{name:"Family Suite",rate:124}},secondDog:35,full:38,half:26,pass:340,week:385,addons:{oneonone:{name:"15-minute one-on-one",price:15},bath:{name:"Bath before pick-up",price:30},yard:{name:"Extra yard time",price:12},food:{name:"Own-food feeding",price:5}}};</script>
+</head>
+<body class="page-booking">
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="demo-strip" role="note">DEMO — ThinkFirst Studios · [Your name here]</div>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html" aria-label="Lanternwood Pet Lodge — home"><svg viewBox="0 0 30 36" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="15" cy="3.4" r="2"/><path d="M9.5 9h11l-1.6-3.4h-7.8z"/><rect x="8.2" y="9" width="13.6" height="17.5" rx="2.4"/><path d="M11.8 9v17.5M18.2 9v17.5" stroke-width="1" opacity=".55"/><path d="M9.4 26.6h11.2l1.4 3.6H8z"/><path d="M15 13.6c2.3 2.3 2.8 4.4 1.7 6.3a2 2 0 0 1-3.4 0c-1.1-1.9-.6-4 1.7-6.3z" fill="currentColor" stroke="none" opacity=".9"/></svg><span><span class="brand-name">Lanternwood</span><span class="brand-sub">Pet Lodge</span></span></a>
+    <nav class="main-nav" aria-label="Main"><ul><li><a href="services.html#boarding">Boarding</a></li><li><a href="services.html#daycare">Daycare</a></li><li><a href="tour.html">Take the tour</a></li><li><a href="rates.html">Suites &amp; rates</a></li><li><a href="new-client.html">New clients</a></li></ul></nav>
+    <div class="header-actions">
+      <a class="header-phone" href="tel:0000000000"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span><span class="ph">[PHONE — CONFIRM]</span></span></a>
+      <a class="btn btn--primary header-cta" href="booking.html">Check dates</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+  <div class="wrap header-lic"><span class="lic-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h6"/></svg><span><span class="ph">[FACILITY LICENSE # — CONFIRM]</span> · <span class="ph">[STATE/COUNTY]</span></span></span></div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" hidden>
+    <ul><li><a href="services.html#boarding">Boarding</a></li><li><a href="services.html#daycare">Daycare</a></li><li><a href="tour.html">Take the tour</a></li><li><a href="rates.html">Suites &amp; rates</a></li><li><a href="new-client.html">New clients</a></li><li><a href="about.html">About the lodge</a></li><li><a href="contact.html">Contact &amp; directions</a></li></ul>
+    <a class="header-phone" href="tel:0000000000"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span><span class="ph">[PHONE — CONFIRM]</span></span></a>
+    <a class="btn btn--primary" href="booking.html">Check dates</a>
+  </nav>
+</header>
+<main id="main">
+
+<section class="page-hero ">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <span aria-current="page">Book</span></nav>
+    <p class="eyebrow">Book</p>
+    <h1>Check dates and reserve.</h1>
+    <p class="lede">Choose the service, pick dates on the availability calendar and reserve online. Extended stays are sent as a request and confirmed by the front desk.</p>
+    
+  </div>
+</section>
+<section class="section--tight">
+  <div class="wrap booking-layout">
+    <form id="booking-form" novalidate>
+      <div class="bk-step">
+        <h2><span class="n">1</span>What are you booking?</h2>
+        <fieldset>
+          <legend class="visually-hidden">Service</legend>
+          <div class="segmented">
+            <input type="radio" name="bk-mode" id="bk-boarding" value="boarding" checked><label for="bk-boarding">Boarding</label>
+            <input type="radio" name="bk-mode" id="bk-daycare" value="daycare"><label for="bk-daycare">Daycare</label>
+            <input type="radio" name="bk-mode" id="bk-extended" value="extended"><label for="bk-extended">Extended stay</label>
+          </div>
+        </fieldset>
+        <fieldset class="bk-sub">
+          <legend>First stay with us?</legend>
+          <div class="radio-cards radio-cards--2 field">
+            <label class="radio-card"><input type="radio" name="first-stay" value="yes" required><span><strong>Yes, first stay</strong><small>Meet and greet and intake come first</small></span></label>
+            <label class="radio-card"><input type="radio" name="first-stay" value="no" required><span><strong>No, I've stayed before</strong><small>Straight to dates</small></span></label>
+            <span class="err-msg" aria-live="polite"></span>
+          </div>
+        </fieldset>
+        <div class="first-panel" id="first-panel" hidden>
+          <h3 style="font-size:1.25rem">Before a first stay</h3>
+          <p>First-time guests start with a meet and greet <span class="ph">[MEET AND GREET / TRIAL DAY — CONFIRM]</span>, and the <a href="new-client.html">new-client intake</a> must be completed before the stay. It's online and takes about <span class="ph">[NUMBER]</span> minutes.</p>
+          <div class="grid-2">
+            <div class="field"><label for="mg-date">Preferred meet-and-greet date</label><input class="input" type="date" id="mg-date" name="mg-date"><span class="hint">The front desk confirms the time <span class="ph">[CONFIRM]</span>.</span></div>
+            <div class="field"><label for="mg-time">Preferred time of day</label><select class="select" id="mg-time" name="mg-time"><option>Morning</option><option>Midday</option><option>Afternoon</option></select></div>
+          </div>
+          <label class="check"><input type="checkbox" id="intake-ack" name="intake-ack"><span>I'll complete the <a href="new-client.html">new-client intake</a> before this stay. <span class="err-msg" aria-live="polite"></span></span></label>
+        </div>
+        <p class="notice" id="gate-note" style="margin-top:18px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><span>Answer the first-stay question to see the calendar.</span></p>
+      </div>
+
+      <div class="bk-step" data-gated hidden>
+        <h2 id="bk-dates-h" tabindex="-1"><span class="n">2</span>Dates</h2>
+        <p id="cal-help">Choose a check-in date, then a check-out date.</p>
+        <div class="cal-demo"><span class="ph">[AVAILABILITY — demo data]</span><span class="ph-note">Availability shown is sample data for the demo.</span></div>
+        <div class="holiday-band"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><span><strong>Peak dates are marked with a bar.</strong> <span class="ph">[HOLIDAY PERIODS — CONFIRM]</span> · <span class="ph">[PEAK / HOLIDAY RATE — CONFIRM]</span></span></div>
+        <div id="bk-cal"></div>
+        <ul class="cal-legend" aria-label="Calendar key">
+          <li><svg viewBox="0 0 16 16" aria-hidden="true" style="color:var(--indigo)"><circle cx="8" cy="8" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>Open</li>
+          <li><span class="sw sw--limited" aria-hidden="true"></span><svg viewBox="0 0 16 16" aria-hidden="true" style="color:var(--oak-ink)"><circle cx="8" cy="8" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 2.5a5.5 5.5 0 0 1 0 11z" fill="currentColor"/></svg>Limited</li>
+          <li><span class="sw sw--full" aria-hidden="true"></span><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 12 12 4" stroke="currentColor" stroke-width="2"/></svg>Full — can't be booked</li>
+          <li><span class="sw sw--peak" aria-hidden="true"></span>Peak period</li>
+        </ul>
+        <p class="cal-status" id="cal-status" role="status" aria-live="polite"></p>
+        <div class="range-readout" aria-live="polite">
+          <div><span id="ro-in-l">Check-in</span><strong id="ro-in">—</strong></div>
+          <div><span id="ro-out-l">Check-out</span><strong id="ro-out">—</strong></div>
+          <div><span id="ro-n-l">Nights</span><strong id="ro-n">—</strong></div>
+        </div>
+        <p class="ph-note" style="margin-top:10px">Keyboard: arrow keys move between days, Page Up / Page Down change month, Enter selects.</p>
+
+        <div class="bk-sub" data-for-mode="daycare" data-gated hidden>
+          <fieldset>
+            <legend>Day length</legend>
+            <div class="radio-cards radio-cards--2">
+              <label class="radio-card"><input type="radio" name="daylen" value="full" checked><span><strong>Full day</strong><small><span class="ph">[FULL-DAY HOURS — CONFIRM]</span></small></span><span class="price"><span class="ph">$[38]</span></span></label>
+              <label class="radio-card"><input type="radio" name="daylen" value="half"><span><strong>Half day</strong><small><span class="ph">[HALF-DAY HOURS — CONFIRM]</span></small></span><span class="price"><span class="ph">$[26]</span></span></label>
+            </div>
+          </fieldset>
+          <label class="check" style="margin-top:8px"><input type="checkbox" id="use-pass" name="use-pass"><span>Buy a <span class="ph">[10]</span>-day pass instead — <span class="ph">$[340]</span> per dog. Days can be picked now or later.</span></label>
+        </div>
+
+        <div class="bk-sub" data-for-mode="extended" data-gated hidden>
+          <div class="field">
+            <span class="label" id="weeks-l">Number of weeks</span>
+            <div class="stepper" role="group" aria-labelledby="weeks-l">
+              <button type="button" data-weeks="-1" aria-label="One week fewer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/></svg></button>
+              <output id="weeks-out" aria-live="polite">1 week</output>
+              <button type="button" data-weeks="1" aria-label="One week more"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></button>
+            </div>
+          </div>
+          <p class="notice notice--oak" style="margin-top:14px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><span>Extended stays are arranged, not instantly confirmed — the front desk replies to your request. <span class="ph">[EXTENDED STAY MINIMUM / TERMS — CONFIRM]</span></span></p>
+        </div>
+      </div>
+
+      <div class="bk-step" data-gated data-for-mode="boarding" hidden>
+        <h2><span class="n">3</span>Suite</h2>
+        <fieldset><legend class="visually-hidden">Choose a suite</legend><div class="radio-cards"><label class="radio-card"><input type="radio" name="tier" value="run"><span><strong>Kennel Run</strong><small><span class="ph">[NUMBER]</span> sq ft floor area · Floor: <span class="ph">[SURFACE — CONFIRM]</span></small></span><span class="price"><span class="ph">$[58]</span><small>/night</small></span></label><label class="radio-card"><input type="radio" name="tier" value="suite"><span><strong>Suite</strong><small>Larger — <span class="ph">[NUMBER]</span> sq ft · Window <span class="ph">[CONFIRM]</span></small></span><span class="price"><span class="ph">$[72]</span><small>/night</small></span></label><label class="radio-card"><input type="radio" name="tier" value="lodge"><span><strong>Lodge Suite</strong><small><span class="ph">[NUMBER]</span> sq ft · Window</small></span><span class="price"><span class="ph">$[89]</span><small>/night</small></span></label><label class="radio-card"><input type="radio" name="tier" value="family"><span><strong>Family Suite</strong><small>Up to <span class="ph">[NUMBER]</span> dogs from one household · <span class="ph">[NUMBER]</span> sq ft</small></span><span class="price"><span class="ph">$[124]</span><small>/night</small></span></label></div></fieldset>
+        <p class="ph-note" style="margin-top:12px">Compare tiers on <a href="rates.html">Suites &amp; rates</a>.</p>
+      </div>
+
+      <div class="bk-step" data-gated hidden>
+        <h2><span class="n">4</span>Dogs</h2>
+        <p>One card per dog. Full profiles are collected in the <a href="new-client.html">intake</a>.</p>
+        <div id="dogs"></div>
+        <button class="btn btn--ghost" type="button" id="add-dog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg>Add another dog</button>
+        <p class="ph-note" style="margin-top:10px">Second dog sharing a room <span class="ph">$[35]</span>/night · Family Suite houses up to <span class="ph">[NUMBER]</span> dogs from one household.</p>
+      </div>
+
+      <div class="bk-step" data-gated hidden>
+        <h2><span class="n">5</span>Add-ons</h2>
+        <fieldset><legend class="visually-hidden">Optional add-ons</legend><div class="radio-cards"><label class="radio-card" style="grid-template-columns:24px 1fr auto"><input type="checkbox" name="addon" value="oneonone"><span><strong><span class="ph">[15]</span>-minute one-on-one</strong><small>Per dog, per stay</small></span><span class="price"><span class="ph">$[15]</span></span></label><label class="radio-card" style="grid-template-columns:24px 1fr auto"><input type="checkbox" name="addon" value="bath"><span><strong>Bath before pick-up</strong><small>Per dog</small></span><span class="price"><span class="ph">$[30]</span></span></label><label class="radio-card" style="grid-template-columns:24px 1fr auto"><input type="checkbox" name="addon" value="yard"><span><strong>Extra yard time</strong><small>Per dog, per stay</small></span><span class="price"><span class="ph">$[12]</span></span></label><label class="radio-card" style="grid-template-columns:24px 1fr auto"><input type="checkbox" name="addon" value="food"><span><strong>Own-food feeding</strong><small>Per dog</small></span><span class="price"><span class="ph">$[5]</span></span></label></div></fieldset>
+      </div>
+
+      <div class="bk-step" data-gated hidden>
+        <h2><span class="n">6</span>Your details</h2>
+        <div class="grid-2">
+          <div class="field"><label for="c-name">Full name</label><input class="input" id="c-name" name="c-name" autocomplete="name" required><span class="err-msg" aria-live="polite"></span></div>
+          <div class="field"><label for="c-phone">Mobile phone</label><input class="input" id="c-phone" name="c-phone" type="tel" autocomplete="tel" required><span class="err-msg" aria-live="polite"></span></div>
+          <div class="field" style="grid-column:1/-1"><label for="c-email">Email</label><input class="input" id="c-email" name="c-email" type="email" autocomplete="email" required><span class="err-msg" aria-live="polite"></span></div>
+          <div class="field" style="grid-column:1/-1"><label for="c-notes">Anything the front desk should know? <span class="hint">(optional)</span></label><textarea class="textarea" id="c-notes" name="c-notes"></textarea></div>
+        </div>
+        <label class="check"><input type="checkbox" name="sms" id="sms"><span>Send confirmations and reminders by text. <span class="ph">[SMS CONSENT LANGUAGE — CONFIRM]</span></span></label>
+        <div class="notice" style="margin-top:16px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><span><span class="ph">[DEPOSIT / PAYMENT STEP — not built in demo]</span> · <span class="ph">[DEPOSIT POLICY — CONFIRM]</span> · <span class="ph">[CANCELLATION POLICY — CONFIRM]</span></span></div>
+        <div class="notice notice--oak" id="bk-errors" tabindex="-1" hidden style="margin-top:16px;display:block;" role="alert"></div>
+        <button class="btn btn--primary btn--lg btn--block" type="submit" style="margin-top:20px"><span id="bk-submit-label">Review reservation</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </div>
+
+      <div class="review-panel" id="review" hidden>
+        <h2 id="review-h" tabindex="-1">Review</h2>
+        <dl id="review-list"></dl>
+        <div class="pay-slot">[DEPOSIT / PAYMENT STEP — not built in demo]</div>
+        <p><span class="ph">[DEPOSIT POLICY — CONFIRM]</span> · <span class="ph">[CANCELLATION POLICY — CONFIRM]</span></p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <button class="btn btn--primary btn--lg" type="button" id="review-confirm">Confirm (demo)</button>
+          <button class="btn btn--ghost btn--lg" type="button" id="review-edit">Edit details</button>
+        </div>
+      </div>
+      <div class="confirm-box" id="confirm" hidden>
+        <h2 id="confirm-h" tabindex="-1">Demo confirmation</h2>
+        <p>This is a demo — nothing was sent and no <span id="confirm-mode">reservation</span> was made. On the live site the customer would reach the deposit step and then get a confirmation by email and text.</p>
+        <p><span class="ph">[DEPOSIT / PAYMENT STEP — not built in demo]</span></p>
+      </div>
+    </form>
+
+    <aside class="summary" aria-label="Booking summary">
+      <button class="summary-bar" type="button" aria-expanded="false" aria-controls="summary-card"><span id="summary-bar-text">Summary</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 15 6-6 6 6"/></svg></button>
+      <div class="summary-card" id="summary-card">
+        <div class="summary-top on-dark"><h2>Your stay</h2><p>Estimate — every figure is a placeholder</p></div>
+        <div class="summary-body">
+          <dl>
+            <dt>Service</dt><dd id="s-mode">Boarding</dd>
+            <dt>Dates</dt><dd id="s-dates">Not chosen</dd>
+            <dt>Length</dt><dd id="s-len">—</dd>
+            <dt id="s-tier-l">Suite</dt><dd id="s-tier">Not chosen</dd>
+            <dt>Dogs</dt><dd id="s-dogs">Dog 1</dd>
+          </dl>
+          <p id="first-row" class="ph-note" hidden>First stay: meet and greet and intake before the stay.</p>
+          <dl id="s-lines"></dl>
+          <div class="total"><span>Estimated total <span class="demo-tag">(demo)</span></span><strong id="s-total"><span class="ph">$[—]</span></strong></div>
+          <p class="ph-note" id="s-peak" hidden></p>
+          <div class="pol ph-note">
+            <span><span class="ph">[DEPOSIT POLICY — CONFIRM]</span></span>
+            <span><span class="ph">[CANCELLATION POLICY — CONFIRM]</span></span>
+            <span>Confirmation by email and text</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+<template id="dog-tpl">
+  <div class="dog-card">
+    <div class="dog-card-head"><h3>Dog 1</h3><button class="btn-text" type="button" data-remove-dog>Remove</button></div>
+    <div class="dog-grid">
+      <div class="field"><label data-for="dog-name">Name</label><input class="input" data-name="dog-name" required><span class="err-msg" aria-live="polite"></span></div>
+      <div class="field"><label data-for="dog-breed">Breed</label><input class="input" data-name="dog-breed"></div>
+      <div class="field"><label data-for="dog-weight">Weight (lb)</label><input class="input" data-name="dog-weight" inputmode="numeric"></div>
+    </div>
+  </div>
+</template>
+
+</main>
+<footer class="site-footer on-dark">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html" aria-label="Lanternwood Pet Lodge — home"><svg viewBox="0 0 30 36" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="15" cy="3.4" r="2"/><path d="M9.5 9h11l-1.6-3.4h-7.8z"/><rect x="8.2" y="9" width="13.6" height="17.5" rx="2.4"/><path d="M11.8 9v17.5M18.2 9v17.5" stroke-width="1" opacity=".55"/><path d="M9.4 26.6h11.2l1.4 3.6H8z"/><path d="M15 13.6c2.3 2.3 2.8 4.4 1.7 6.3a2 2 0 0 1-3.4 0c-1.1-1.9-.6-4 1.7-6.3z" fill="currentColor" stroke="none" opacity=".9"/></svg><span><span class="brand-name">Lanternwood</span><span class="brand-sub">Pet Lodge</span></span></a>
+        <p>Overnight boarding, daycare and extended stays in <span class="ph">[CITY]</span>, <span class="ph">[STATE]</span>. Tour every room online before you book.</p>
+        <div class="socials" aria-label="Social profiles (placeholders)"><span><span class="ph">[INSTAGRAM — CONFIRM]</span></span><span><span class="ph">[FACEBOOK — CONFIRM]</span></span></div>
+      </div>
+      <div>
+        <h2>Services</h2>
+        <ul>
+          <li><a href="services.html#boarding">Overnight boarding</a></li>
+          <li><a href="services.html#daycare">Daycare</a></li>
+          <li><a href="services.html#extended">Extended stays</a></li>
+          <li><a href="services.html#addons">Add-ons</a></li>
+          <li><a href="rates.html">Suites &amp; rates</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Facility</h2>
+        <ul>
+          <li><a href="tour.html">Take the tour</a></li>
+          <li><a href="tour.html#live-view">Live view for guests</a></li>
+          <li><a href="about.html">About the lodge</a></li>
+          <li><a href="new-client.html">New-client intake</a></li>
+          <li><a href="booking.html">Check dates &amp; book</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="tel:0000000000"><span class="ph">[PHONE — CONFIRM]</span></a></li>
+          <li><a href="mailto:hello@example.com"><span class="ph">[EMAIL — CONFIRM]</span></a></li>
+          <li><span><span class="ph">[STREET ADDRESS]</span>, <span class="ph">[CITY]</span>, <span class="ph">[STATE]</span> <span class="ph">[ZIP]</span></span></li>
+          <li><span>Front desk <span class="ph">[HOURS — CONFIRM]</span></span></li>
+          <li><a href="contact.html">Contact &amp; directions</a></li>
+          <li><a href="privacy.html">Privacy (draft)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <p>Lanternwood Pet Lodge · <span class="ph">[FACILITY LICENSE # — CONFIRM]</span> · <span class="ph">[STATE/COUNTY]</span> · Insured <span class="ph">[CONFIRM]</span> · <span class="ph">[CITY]</span>, <span class="ph">[STATE]</span></p>
+      <p class="demo-line">DEMO — ThinkFirst Studios · [Your name here] · Fictional company, not a real business.</p>
+    </div>
+  </div>
+</footer>
+<div class="book-bar" role="region" aria-label="Quick booking">
+  <a class="bb-phone" href="tel:0000000000" aria-label="Call the lodge (number to be confirmed)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></a>
+  <a class="bb-main" href="booking.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="4.5" width="18" height="16.5" rx="2.5"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/></svg>Check dates</a>
+</div>
+<div class="demo-pill" aria-hidden="true">DEMO — ThinkFirst Studios · [Your name here]</div>
+<script src="script.js" defer></script>
+</body>
+</html>

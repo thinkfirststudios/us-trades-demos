@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nine Yards Home Repair Co. — Demo handyman template</title>
+<meta name="description" content="Demo template: a fictional multi-trade handyman and home repair company. All details are placeholders.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1B1917">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>
+  /* Gate the scroll-reveal hidden state behind .js; if script.js never runs, un-gate after 2.5s. */
+  document.documentElement.classList.add('js');
+  setTimeout(function(){ if(!window.__nyReady){ document.documentElement.classList.remove('js'); } }, 2500);
+</script>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "HomeAndConstructionBusiness",
+ "name": "Nine Yards Home Repair Co. (DEMO — fictional)",
+ "description": "Demo template. Fictional multi-trade home repair company. All details are placeholders.",
+ "telephone": "[(555) 555-0100]",
+ "address": {
+  "@type": "PostalAddress",
+  "addressLocality": "[CITY]",
+  "addressRegion": "[ST]"
+ },
+ "areaServed": "[COUNTY / METRO AREA — CONFIRM]",
+ "priceRange": "[CONFIRM]"
+}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="demo-marker" role="note" aria-label="Demo site">DEMO — ThinkFirst Studios · [Your name here]</div>
+<header class="site-header" data-header>
+  <div class="utility on-dark">
+    <div class="wrap utility__in">
+      <span><span class="ph">[CITY, ST]</span></span>
+      <span>Hours <span class="ph">[MON–SAT 7–6]</span></span>
+      <span>License # <span class="ph">[LICENSE # — CONFIRM]</span> · <span class="ph">[STATE]</span></span>
+    </div>
+  </div>
+  <div class="wrap site-header__in">
+    <a class="brand" href="index.html" aria-label="Nine Yards Home Repair Co. — home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="brand__mark" aria-hidden="true" focusable="false">
+  <rect width="64" height="64" rx="16" fill="#1B1917"/>
+  <rect x="8" y="34" width="48" height="14" rx="3" fill="#E2590B"/>
+  <g fill="#F5F1EA">
+    <rect x="11" y="18" width="3" height="16" rx="1"/>
+    <rect x="16.5" y="25" width="3" height="9" rx="1"/>
+    <rect x="22" y="22" width="3" height="12" rx="1"/>
+    <rect x="27.5" y="25" width="3" height="9" rx="1"/>
+    <rect x="33" y="14" width="3" height="20" rx="1"/>
+    <rect x="38.5" y="25" width="3" height="9" rx="1"/>
+    <rect x="44" y="22" width="3" height="12" rx="1"/>
+    <rect x="49.5" y="25" width="3" height="9" rx="1"/>
+    <rect x="55" y="18" width="3" height="16" rx="1" transform="translate(-2 0)"/>
+  </g>
+</svg>
+<span class="brand__word">Nine Yards<small>Home Repair Co.</small></span></a>
+    <nav class="nav" aria-label="Primary"><ul><li><a href="services.html">Services</a></li><li><a href="service-area.html">Service Area</a></li><li><a href="index.html#how">How It Works</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+    <div class="header-actions">
+      <a class="header-phone" href="tel:+15555550100" aria-label="Call [(555) 555-0100]"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span>[(555) 555-0100]</span></a>
+      <a class="btn btn--sm header-cta" href="#quote">Get a Quote</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu" data-menu-toggle><span class="i-open"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg></span><span class="i-close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg></span></button>
+    </div>
+  </div>
+  <div class="mobile-nav" id="mobile-nav" hidden>
+    <nav aria-label="Mobile"><ul><li><a href="services.html">Services</a></li><li><a href="service-area.html">Service Area</a></li><li><a href="index.html#how">How It Works</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+    <a class="btn btn--block mobile-nav__call" href="tel:+15555550100"><span>Call [(555) 555-0100]</span><span class="btn__token"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span></a>
+    <p class="mobile-nav__lic">License # <span class="ph">[LICENSE # — CONFIRM]</span> · <span class="ph">[STATE]</span></p>
+  </div>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="hero-h">
+ <div class="hero__wrap">
+  <div class="hero__card">
+    <div class="hero__img media--graded"><img class="grade" src="https://images.pexels.com/photos/5691502/pexels-photo-5691502.jpeg?auto=compress&cs=tinysrgb&w=1024" srcset="https://images.pexels.com/photos/5691502/pexels-photo-5691502.jpeg?auto=compress&cs=tinysrgb&w=640 640w, https://images.pexels.com/photos/5691502/pexels-photo-5691502.jpeg?auto=compress&cs=tinysrgb&w=1024 1024w, https://images.pexels.com/photos/5691502/pexels-photo-5691502.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w" sizes="(min-width: 900px) 96vw, 100vw" width="1600" height="1067" alt="Hands fitting a metal hinge to a white-painted frame with a cordless driver, on a paint-spattered sawhorse" fetchpriority="high" decoding="async"></div>
+    <div class="hero__scrim"></div>
+    <div class="hero__body">
+      <span class="chip"><span class="chip__dot"></span><span class="ph ph--dark">[CITY]</span> · No job too small</span>
+      <h1 id="hero-h">The list you keep meaning to get to.</h1>
+      <p class="hero__sub"><span class="ph ph--dark">[PLACEHOLDER: one sentence — client to supply]</span></p>
+      <div class="hero__ctas">
+        <a class="btn " href="#quote"><span>Get a quote</span><span class="btn__token"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="btn btn--ghost" href="services.html">See all services</a>
+      </div>
+    </div>
+    <a class="phone-card" href="tel:+15555550100">
+      <span class="phone-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+      <span class="phone-card__label">Need it fixed now?</span>
+      <span class="phone-card__num">[(555) 555-0100]</span>
+      <span class="phone-card__note"><strong>Call now</strong> — <span class="ph">[SAME-DAY — CONFIRM]</span></span>
+    </a>
+  </div>
+  <div class="badge" aria-hidden="true">
+    <svg class="badge__ring" viewBox="0 0 100 100"><defs><path id="ring" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs><text><textPath href="#ring" textLength="236" lengthAdjust="spacing">NO JOB TOO SMALL · NO JOB TOO SMALL · </textPath></text></svg>
+    <svg class="badge__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+  </div>
+ </div>
+</section>
+
+<section class="marquee" aria-label="Services at a glance">
+  <div class="marquee__row"><div class="marquee__track"><span class="marquee__item">Drywall Repair<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Door &amp; Lock<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Faucet Swap<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">TV Mounting<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Deck Boards<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Caulk &amp; Grout<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Fixture Swap<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Shelving<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Gutter Cleaning<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Fence Repair<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Tile Patch<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Pressure Washing<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Weatherstripping<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Furniture Assembly<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span></div><div class="marquee__track" aria-hidden="true"><span class="marquee__item">Drywall Repair<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Door &amp; Lock<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Faucet Swap<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">TV Mounting<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Deck Boards<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Caulk &amp; Grout<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Fixture Swap<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Shelving<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Gutter Cleaning<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Fence Repair<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Tile Patch<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Pressure Washing<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Weatherstripping<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Furniture Assembly<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span></div></div>
+  <div class="marquee__row marquee__row--rev" aria-hidden="true"><div class="marquee__track"><span class="marquee__item">Furniture Assembly<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Weatherstripping<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Pressure Washing<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Tile Patch<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Fence Repair<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Gutter Cleaning<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Shelving<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Fixture Swap<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Caulk &amp; Grout<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Deck Boards<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">TV Mounting<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Faucet Swap<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Door &amp; Lock<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Drywall Repair<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span></div><div class="marquee__track"><span class="marquee__item">Furniture Assembly<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Weatherstripping<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Pressure Washing<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Tile Patch<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Fence Repair<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Gutter Cleaning<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Shelving<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Fixture Swap<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Caulk &amp; Grout<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Deck Boards<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">TV Mounting<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Faucet Swap<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Door &amp; Lock<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span><span class="marquee__item">Drywall Repair<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0l8 8-8 8-8-8z" fill="currentColor"/></svg></span></div></div>
+</section>
+
+
+<section class="icon-strip" aria-labelledby="strip-h">
+  <div class="wrap">
+    <h2 class="sr-only" id="strip-h">Before you call</h2>
+    <ul class="icon-strip__grid" data-reveal-group>
+      <li class="icon-card" data-reveal><span class="icon-card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M6 16c.6-1.4 1.7-2 3-2s2.4.6 3 2M14 10h4M14 13h3"/></svg></span><h3>License &amp; insurance</h3><p>License <span class="ph">[CONFIRM]</span> · Insurance <span class="ph">[CONFIRM]</span></p></li>
+      <li class="icon-card" data-reveal><span class="icon-card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c.8-3.4 3.2-5 6-5s5.2 1.6 6 5M15.5 11l2 2 3.5-4"/></svg></span><h3>Background-checked crew</h3><p><span class="ph">[CONFIRM]</span></p></li>
+      <li class="icon-card" data-reveal><span class="icon-card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><h3>Upfront hourly</h3><p><span class="ph">$[95]/hr</span> <span class="ph">[CONFIRM]</span></p></li>
+      <li class="icon-card" data-reveal><span class="icon-card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M9 15l2 2 4-4"/></svg></span><h3>Same-day slots</h3><p><span class="ph">[SAME-DAY — CONFIRM]</span></p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--tight" aria-label="Nine Yards in numbers">
+  <div class="wrap"><ul class="stats" data-reveal-group>
+  <li data-reveal><span class="stat__num"><span class="br">[</span><span data-count="12">12</span><span class="br">]</span></span><span class="stat__cap">years fixing the list <span class="sr-only">(placeholder)</span></span></li>
+  <li data-reveal><span class="stat__num"><span class="br">[</span><span data-count="2400" data-comma>2,400</span>+<span class="br">]</span></span><span class="stat__cap">jobs on the books <span class="sr-only">(placeholder)</span></span></li>
+  <li data-reveal><span class="stat__num"><span class="br">[</span><span data-count="38">38</span><span class="br">]</span></span><span class="stat__cap">ZIP codes covered <span class="sr-only">(placeholder)</span></span></li>
+  <li data-reveal><span class="stat__num"><span class="br">[</span><span data-count="1">1</span><span class="br">]</span></span><span class="stat__cap">crew, every trade <span class="sr-only">(placeholder)</span></span></li>
+</ul>
+</div>
+</section>
+
+<section class="section" id="services" aria-labelledby="svc-h" style="padding-top:clamp(24px,4vw,56px)">
+  <div class="wrap">
+    <div class="head-center" data-reveal-group>
+      <p class="eyebrow" data-reveal>Everything on one list</p>
+      <h2 class="h2" id="svc-h" data-reveal>One crew for the whole list.</h2>
+      <p class="lede" data-reveal>Every job on the list, sorted into five groups. Open one to see what's in it.</p>
+    </div>
+    <div class="cards3" data-reveal-group><article class="img-card" data-reveal>
+      <div class="media media--graded"><img class="grade" src="https://images.pexels.com/photos/3616762/pexels-photo-3616762.jpeg?auto=compress&cs=tinysrgb&w=1024" srcset="https://images.pexels.com/photos/3616762/pexels-photo-3616762.jpeg?auto=compress&cs=tinysrgb&w=640 640w, https://images.pexels.com/photos/3616762/pexels-photo-3616762.jpeg?auto=compress&cs=tinysrgb&w=1024 1024w, https://images.pexels.com/photos/3616762/pexels-photo-3616762.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w" sizes="(min-width: 760px) 33vw, 100vw" width="1600" height="1067" alt="A wall with fresh drywall patches and joint compound, sanded and ready for paint" loading="lazy" decoding="async"></div>
+      <span class="img-card__chip">Interior</span>
+      <div class="img-card__cap"><h3>Drywall &amp; patching</h3><p>Holes, cracks, stains, trim.</p></div>
+    </article><article class="img-card" data-reveal>
+      <div class="media media--graded"><img class="grade" src="https://images.pexels.com/photos/7578999/pexels-photo-7578999.jpeg?auto=compress&cs=tinysrgb&w=1024" srcset="https://images.pexels.com/photos/7578999/pexels-photo-7578999.jpeg?auto=compress&cs=tinysrgb&w=640 640w, https://images.pexels.com/photos/7578999/pexels-photo-7578999.jpeg?auto=compress&cs=tinysrgb&w=1024 1024w, https://images.pexels.com/photos/7578999/pexels-photo-7578999.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w" sizes="(min-width: 760px) 33vw, 100vw" width="1600" height="900" alt="A hand setting the handle on a newly fitted chrome bathroom faucet" loading="lazy" decoding="async"></div>
+      <span class="img-card__chip">Plumbing</span>
+      <div class="img-card__cap"><h3>Faucets &amp; fixtures</h3><p>Swaps and small leaks.</p></div>
+    </article><article class="img-card" data-reveal>
+      <div class="media media--graded"><img class="grade" src="https://images.pexels.com/photos/8832032/pexels-photo-8832032.jpeg?auto=compress&cs=tinysrgb&w=1024" srcset="https://images.pexels.com/photos/8832032/pexels-photo-8832032.jpeg?auto=compress&cs=tinysrgb&w=640 640w, https://images.pexels.com/photos/8832032/pexels-photo-8832032.jpeg?auto=compress&cs=tinysrgb&w=1024 1024w, https://images.pexels.com/photos/8832032/pexels-photo-8832032.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w" sizes="(min-width: 760px) 33vw, 100vw" width="1600" height="1067" alt="Gloved hands driving screws into new deck boards around a tree trunk" loading="lazy" decoding="async"></div>
+      <span class="img-card__chip">Outside</span>
+      <div class="img-card__cap"><h3>Decks, fences, gutters</h3><p>Boards, gates, the exterior list.</p></div>
+    </article></div>
+    <div class="acc" data-acc data-reveal-group><div class="acc__item is-open" data-reveal>
+    <h3><button class="acc__btn" type="button" aria-expanded="true" aria-controls="grp-interior" id="grp-interior-btn">
+      <span class="acc__idx">01</span><span class="acc__title">Interior Repairs</span><span class="acc__count">8 items</span><span class="acc__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></span>
+    </button></h3>
+    <div class="acc__panel" id="grp-interior" role="region" aria-labelledby="grp-interior-btn"><div class="acc__inner"><div class="acc__content">
+      <ul class="list2"><li>Drywall holes &amp; cracks</li><li>Water-stain patch &amp; repaint</li><li>Baseboard &amp; trim</li><li>Caulk &amp; grout</li><li>Tile patch &amp; regrout</li><li>Ceiling touch-ups</li><li>Squeaky stairs &amp; floors</li><li>Small-area interior painting</li></ul>
+      <p class="acc__foot"><span>Walls, trim, floors and the small damage that builds up. Not on the list?</span> <a class="textlink" href="tel:+15555550100">Call <span class="ph">[(555) 555-0100]</span></a> <a class="textlink" href="services.html#interior">Full group <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+    </div></div></div>
+  </div>
+  <div class="acc__item" data-reveal>
+    <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="grp-plumbing" id="grp-plumbing-btn">
+      <span class="acc__idx">02</span><span class="acc__title">Plumbing &amp; Fixtures</span><span class="acc__count">8 items</span><span class="acc__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></span>
+    </button></h3>
+    <div class="acc__panel" id="grp-plumbing" role="region" aria-labelledby="grp-plumbing-btn"><div class="acc__inner"><div class="acc__content">
+      <ul class="list2"><li>Faucet swap</li><li>Running toilet fix</li><li>Toilet replacement</li><li>Disposal swap</li><li>Shower head &amp; trim</li><li>Sink drain &amp; P-trap</li><li>Supply line replacement</li><li>Re-caulk tubs &amp; showers</li></ul>
+      <p class="acc__foot"><span>Swaps and small fixes at the sink, tub and toilet. Not on the list?</span> <a class="textlink" href="tel:+15555550100">Call <span class="ph">[(555) 555-0100]</span></a> <a class="textlink" href="services.html#plumbing">Full group <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+    </div></div></div>
+  </div>
+  <div class="acc__item" data-reveal>
+    <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="grp-doors" id="grp-doors-btn">
+      <span class="acc__idx">03</span><span class="acc__title">Doors, Windows &amp; Locks</span><span class="acc__count">9 items</span><span class="acc__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></span>
+    </button></h3>
+    <div class="acc__panel" id="grp-doors" role="region" aria-labelledby="grp-doors-btn"><div class="acc__inner"><div class="acc__content">
+      <ul class="list2"><li>Door rehang &amp; adjust</li><li>Sticking doors</li><li>Lockset &amp; deadbolt swap</li><li>Weatherstripping</li><li>Screen repair</li><li>Window hardware</li><li>Sliding door track</li><li>Storm door install</li><li>Door stops &amp; closers</li></ul>
+      <p class="acc__foot"><span>Things that stick, rattle, draft or won't latch. Not on the list?</span> <a class="textlink" href="tel:+15555550100">Call <span class="ph">[(555) 555-0100]</span></a> <a class="textlink" href="services.html#doors">Full group <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+    </div></div></div>
+  </div>
+  <div class="acc__item" data-reveal>
+    <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="grp-mounting" id="grp-mounting-btn">
+      <span class="acc__idx">04</span><span class="acc__title">Mounting &amp; Assembly</span><span class="acc__count">8 items</span><span class="acc__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></span>
+    </button></h3>
+    <div class="acc__panel" id="grp-mounting" role="region" aria-labelledby="grp-mounting-btn"><div class="acc__inner"><div class="acc__content">
+      <ul class="list2"><li>TV mounting</li><li>Shelving</li><li>Curtain rods &amp; blinds</li><li>Pictures &amp; mirrors</li><li>Furniture assembly</li><li>Closet systems</li><li>Grab bars <span class="ph">[CONFIRM]</span></li><li>Light fixture swap <span class="ph">[CONFIRM scope]</span></li></ul>
+      <p class="acc__foot"><span>Anything that goes on a wall or comes in a flat box. Not on the list?</span> <a class="textlink" href="tel:+15555550100">Call <span class="ph">[(555) 555-0100]</span></a> <a class="textlink" href="services.html#mounting">Full group <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+    </div></div></div>
+  </div>
+  <div class="acc__item" data-reveal>
+    <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="grp-outside" id="grp-outside-btn">
+      <span class="acc__idx">05</span><span class="acc__title">Outside the House</span><span class="acc__count">8 items</span><span class="acc__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></span>
+    </button></h3>
+    <div class="acc__panel" id="grp-outside" role="region" aria-labelledby="grp-outside-btn"><div class="acc__inner"><div class="acc__content">
+      <ul class="list2"><li>Deck board replacement</li><li>Fence repair</li><li>Gate adjust &amp; latch</li><li>Gutter cleaning</li><li>Pressure washing</li><li>Exterior caulk</li><li>Siding patch</li><li>House numbers &amp; mailbox</li></ul>
+      <p class="acc__foot"><span>Deck, fence, gutters and the exterior list. Not on the list?</span> <a class="textlink" href="tel:+15555550100">Call <span class="ph">[(555) 555-0100]</span></a> <a class="textlink" href="services.html#outside">Full group <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+    </div></div></div>
+  </div></div>
+  </div>
+</section>
+
+<section class="section band-grey" id="how" aria-labelledby="how-h">
+  <div class="wrap">
+    <div class="head-split" data-reveal-group>
+      <div><p class="eyebrow" data-reveal>How it works</p><h2 class="h2" id="how-h" data-reveal>Four steps. No site visit to get a number.</h2></div>
+      <p class="lede" data-reveal>Most jobs can be quoted from a photo. Bigger ones get a visit first.</p>
+    </div>
+    <ol class="steps" data-reveal-group><li class="step" data-reveal><span class="step__n" aria-hidden="true">01</span><svg class="step__arrow" viewBox="0 0 120 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 10h112M104 3l8 7-8 7" fill="none" stroke="currentColor" stroke-width="2"/></svg><div><h3><span class="sr-only">Step 1: </span>Call or send a photo</h3><p>Phone, or the form below with a picture of the problem.</p></div></li><li class="step" data-reveal><span class="step__n" aria-hidden="true">02</span><svg class="step__arrow" viewBox="0 0 120 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 10h112M104 3l8 7-8 7" fill="none" stroke="currentColor" stroke-width="2"/></svg><div><h3><span class="sr-only">Step 2: </span>We give you a number</h3><p>A written estimate before anything is booked.</p></div></li><li class="step" data-reveal><span class="step__n" aria-hidden="true">03</span><svg class="step__arrow" viewBox="0 0 120 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 10h112M104 3l8 7-8 7" fill="none" stroke="currentColor" stroke-width="2"/></svg><div><h3><span class="sr-only">Step 3: </span>We show up in the window</h3><p>Arrival window agreed up front <span class="ph">[CONFIRM]</span>.</p></div></li><li class="step" data-reveal><span class="step__n" aria-hidden="true">04</span><svg class="step__arrow" viewBox="0 0 120 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 10h112M104 3l8 7-8 7" fill="none" stroke="currentColor" stroke-width="2"/></svg><div><h3><span class="sr-only">Step 4: </span>One invoice, one crew</h3><p>Every item on the list, one visit where possible.</p></div></li></ol>
+  </div>
+</section>
+
+<section class="section" id="area" aria-labelledby="area-h">
+  <div class="wrap area">
+    <div class="duo area__img" data-reveal><img class="" src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&q=70&w=1024" srcset="https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&q=70&w=640 640w, https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&q=70&w=1024 1024w, https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&q=70&w=1600 1600w" sizes="(min-width: 960px) 50vw, 100vw" width="1600" height="1067" alt="A residential street of brick houses with driveways and lawns on a clear day" loading="lazy" decoding="async"><span class="area__pin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span class="ph">[COUNTY / METRO AREA — CONFIRM]</span></span></div>
+    <div data-reveal-group>
+      <p class="eyebrow" data-reveal>Service area</p>
+      <h2 class="h2" id="area-h" data-reveal>Check your ZIP.</h2>
+      <p class="lede" data-reveal>Based in <span class="ph">[CITY, ST]</span>. Here's where the van goes.</p>
+      <div data-reveal style="margin-top:24px"><form class="zip" data-zip novalidate aria-labelledby="zip-home-h">
+  <h3 id="zip-home-h">Do we cover your street?</h3>
+  <p class="small">Type a ZIP code. It checks against our list instantly.</p>
+  <div class="zip__row">
+    <label class="sr-only" for="zip-home-input">ZIP code</label>
+    <input class="field-input" id="zip-home-input" name="zip" type="text" inputmode="numeric" maxlength="5" autocomplete="postal-code" placeholder="ZIP code">
+    <button class="btn btn--plain" type="submit">Check</button>
+  </div>
+  <div class="zip__result" data-zip-result aria-live="polite"></div>
+  <p class="zip__hint">Demo list only — try 00001. Live list: <span class="ph">[ZIP LIST — CONFIRM]</span></p>
+</form></div>
+      <div data-reveal><ul class="towns"><li><span class="ph">[TOWN]</span></li><li><span class="ph">[TOWN]</span></li><li><span class="ph">[TOWN]</span></li><li><span class="ph">[TOWN]</span></li><li><span class="ph">[TOWN]</span></li><li><span class="ph">[TOWN]</span></li><li><span class="ph">[TOWN]</span></li><li><span class="ph">[TOWN]</span></li><li><span class="ph">[TOWN]</span></li></ul></div>
+      <p class="area__note" data-reveal>Outside this list? Call — we sometimes travel. <span class="ph">[CONFIRM]</span> <a class="textlink" href="service-area.html">Full area <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section band-grey" id="work" aria-labelledby="work-h">
+  <div class="wrap">
+    <div class="head-split" data-reveal-group>
+      <div><p class="eyebrow" data-reveal>Completed work</p><h2 class="h2" id="work-h" data-reveal>Recent fixes.</h2></div>
+      <p class="lede" data-reveal>Placeholder photography. <span class="ph">[CLIENT TO SUPPLY — own job photos]</span></p>
+    </div>
+    <div class="gallery" data-reveal-group><figure class="tile" data-reveal>
+      <div class="media media--graded"><img class="grade" src="https://images.unsplash.com/photo-1426927308491-6380b6a9936f?auto=format&fit=crop&q=70&w=1024" srcset="https://images.unsplash.com/photo-1426927308491-6380b6a9936f?auto=format&fit=crop&q=70&w=640 640w, https://images.unsplash.com/photo-1426927308491-6380b6a9936f?auto=format&fit=crop&q=70&w=1024 1024w, https://images.unsplash.com/photo-1426927308491-6380b6a9936f?auto=format&fit=crop&q=70&w=1600 1600w" sizes="(min-width: 1200px) 33vw, (min-width: 700px) 50vw, 100vw" width="1600" height="1067" alt="A workshop wall of hand tools: saws, chisels, planes and screwdrivers on racks" loading="lazy" decoding="async"></div>
+      <figcaption class="tile__cap"><strong>Tools on site</strong><span>What comes on the van</span></figcaption>
+    </figure><figure class="tile" data-reveal>
+      <div class="media media--graded"><img class="grade" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=70&w=1024" srcset="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=70&w=640 640w, https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=70&w=1024 1024w, https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=70&w=1600 1600w" sizes="(min-width: 1200px) 33vw, (min-width: 700px) 50vw, 100vw" width="1600" height="1067" alt="A finished bathroom with a glass shower, double vanity and matte black fixtures" loading="lazy" decoding="async"></div>
+      <figcaption class="tile__cap"><strong>Bathroom fixtures</strong><span>Vanity hardware and trim</span></figcaption>
+    </figure><figure class="tile" data-reveal>
+      <div class="media media--graded"><img class="grade" src="https://images.pexels.com/photos/5318075/pexels-photo-5318075.jpeg?auto=compress&cs=tinysrgb&w=1024" srcset="https://images.pexels.com/photos/5318075/pexels-photo-5318075.jpeg?auto=compress&cs=tinysrgb&w=640 640w, https://images.pexels.com/photos/5318075/pexels-photo-5318075.jpeg?auto=compress&cs=tinysrgb&w=1024 1024w, https://images.pexels.com/photos/5318075/pexels-photo-5318075.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w" sizes="(min-width: 1200px) 33vw, (min-width: 700px) 50vw, 100vw" width="1600" height="2000" alt="A paintbrush resting on a repaired wooden fence rail with old boards stacked behind" loading="lazy" decoding="async"></div>
+      <figcaption class="tile__cap"><strong>Fence rail repair</strong><span>Rail replaced, ready for stain</span></figcaption>
+    </figure><figure class="tile" data-reveal>
+      <div class="media media--graded"><img class="grade" src="https://images.pexels.com/photos/5583054/pexels-photo-5583054.jpeg?auto=compress&cs=tinysrgb&w=1024" srcset="https://images.pexels.com/photos/5583054/pexels-photo-5583054.jpeg?auto=compress&cs=tinysrgb&w=640 640w, https://images.pexels.com/photos/5583054/pexels-photo-5583054.jpeg?auto=compress&cs=tinysrgb&w=1024 1024w, https://images.pexels.com/photos/5583054/pexels-photo-5583054.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w" sizes="(min-width: 1200px) 33vw, (min-width: 700px) 50vw, 100vw" width="1600" height="1067" alt="Wall anchors and screws laid out on a wooden surface" loading="lazy" decoding="async"></div>
+      <figcaption class="tile__cap"><strong>Heavy-duty mounting</strong><span>Right anchor for the wall</span></figcaption>
+    </figure><figure class="tile" data-reveal>
+      <div class="media media--graded"><img class="grade" src="https://images.pexels.com/photos/7664072/pexels-photo-7664072.jpeg?auto=compress&cs=tinysrgb&w=1024" srcset="https://images.pexels.com/photos/7664072/pexels-photo-7664072.jpeg?auto=compress&cs=tinysrgb&w=640 640w, https://images.pexels.com/photos/7664072/pexels-photo-7664072.jpeg?auto=compress&cs=tinysrgb&w=1024 1024w, https://images.pexels.com/photos/7664072/pexels-photo-7664072.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w" sizes="(min-width: 1200px) 33vw, (min-width: 700px) 50vw, 100vw" width="1600" height="2400" alt="A chrome single-lever faucet on a white basin in low afternoon light" loading="lazy" decoding="async"></div>
+      <figcaption class="tile__cap"><strong>Faucet swap</strong><span>Single-lever, new supply lines</span></figcaption>
+    </figure><figure class="tile" data-reveal>
+      <div class="media media--graded"><img class="grade" src="https://images.pexels.com/photos/5484718/pexels-photo-5484718.jpeg?auto=compress&cs=tinysrgb&w=1024" srcset="https://images.pexels.com/photos/5484718/pexels-photo-5484718.jpeg?auto=compress&cs=tinysrgb&w=640 640w, https://images.pexels.com/photos/5484718/pexels-photo-5484718.jpeg?auto=compress&cs=tinysrgb&w=1024 1024w, https://images.pexels.com/photos/5484718/pexels-photo-5484718.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w" sizes="(min-width: 1200px) 33vw, (min-width: 700px) 50vw, 100vw" width="1600" height="1100" alt="A hand saw, work gloves, tape measure and claw hammer laid out on a wooden surface" loading="lazy" decoding="async"></div>
+      <figcaption class="tile__cap"><strong>The basic kit</strong><span>Measure twice, one trip</span></figcaption>
+    </figure></div>
+  </div>
+</section>
+
+<section class="section band-ink on-dark" id="crew" aria-labelledby="crew-h">
+  <div class="wrap">
+    <div class="crew-intro" data-reveal-group>
+      <div><p class="eyebrow" data-reveal>The crew</p><h2 class="h2" id="crew-h" data-reveal>Who shows up.</h2></div>
+      <p data-reveal><span class="ph">[PLACEHOLDER: 2–3 sentences — client to supply]</span></p>
+    </div>
+    <div class="crew" data-reveal-group><figure class="frame" data-reveal>
+      <div class="frame__box" role="img" aria-label="Empty photo frame — crew photo to be supplied by client"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4.2-6 8-6s7 2 8 6"/></svg><span>[CREW PHOTO — client to supply]</span></div>
+      <figcaption><span class="frame__name"><span class="ph">[NAME]</span></span><br><span class="frame__role"><span class="ph">[ROLE]</span></span></figcaption>
+    </figure><figure class="frame" data-reveal>
+      <div class="frame__box" role="img" aria-label="Empty photo frame — crew photo to be supplied by client"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4.2-6 8-6s7 2 8 6"/></svg><span>[CREW PHOTO — client to supply]</span></div>
+      <figcaption><span class="frame__name"><span class="ph">[NAME]</span></span><br><span class="frame__role"><span class="ph">[ROLE]</span></span></figcaption>
+    </figure><figure class="frame" data-reveal>
+      <div class="frame__box" role="img" aria-label="Empty photo frame — crew photo to be supplied by client"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4.2-6 8-6s7 2 8 6"/></svg><span>[CREW PHOTO — client to supply]</span></div>
+      <figcaption><span class="frame__name"><span class="ph">[NAME]</span></span><br><span class="frame__role"><span class="ph">[ROLE]</span></span></figcaption>
+    </figure></div>
+  </div>
+</section>
+
+<section class="section band-grey" id="trust" aria-labelledby="trust-h">
+  <div class="wrap">
+    <div class="head-center" data-reveal-group>
+      <p class="eyebrow" data-reveal>Credentials</p>
+      <h2 class="h2" id="trust-h" data-reveal>The paperwork, in plain view.</h2>
+      <p class="lede" data-reveal>Each item below is confirmed by the business before launch.</p>
+    </div>
+    <ul class="trust" data-reveal-group><li data-reveal><span class="trust__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M6 16c.6-1.4 1.7-2 3-2s2.4.6 3 2M14 10h4M14 13h3"/></svg></span><h3>Licensed</h3><p><span class="ph">[LICENSE # — CONFIRM]</span> <span class="ph">[STATE]</span></p></li><li data-reveal><span class="trust__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 12a9 9 0 0 1 18 0zM12 12v6a2 2 0 0 0 4 0"/><path d="M12 3v0"/></svg></span><h3>Insured</h3><p>Liability coverage <span class="ph">[CONFIRM]</span></p></li><li class="is-inverted" data-reveal><span class="trust__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></span><h3>Bonded</h3><p>Bond status <span class="ph">[CONFIRM]</span></p></li><li data-reveal><span class="trust__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg></span><h3>Written estimate before work</h3><p>You see the number before anyone picks up a tool.</p></li><li data-reveal><span class="trust__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.2L4 16.8V20h3.2l5.3-5.3a4 4 0 0 0 5.2-5.4l-2.5 2.5-2.5-.5-.5-2.5z"/></svg></span><h3>One-visit jobs welcome</h3><p>A single hinge is a job. So is a list of fifteen.</p></li><li data-reveal><span class="trust__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3l-4 9M7 12h8l2 9H5z"/><path d="M9 16v5M13 16v5"/></svg></span><h3>Clean-up included</h3><p>Dust sheets down, debris out, work area swept.</p></li></ul>
+  </div>
+</section>
+
+<section class="section" id="reviews" aria-labelledby="rev-h">
+  <div class="wrap">
+    <div class="head-center" data-reveal-group>
+      <p class="eyebrow" data-reveal>Reviews</p>
+      <h2 class="h2" id="rev-h" data-reveal>What customers say.</h2>
+    </div>
+    <ul class="reviews" data-reveal-group><li class="review" data-reveal><p class="review__q">[COLLECT — client review]</p><p class="review__who">[COLLECT — name, town]</p></li><li class="review" data-reveal><p class="review__q">[COLLECT — client review]</p><p class="review__who">[COLLECT — name, town]</p></li><li class="review" data-reveal><p class="review__q">[COLLECT — client review]</p><p class="review__who">[COLLECT — name, town]</p></li></ul>
+    <p class="reviews-note">Reviews are collected from real customers before launch. None are invented.</p>
+  </div>
+</section>
+
+<section class="section quote-band on-dark" id="quote" aria-labelledby="quote-h">
+  <div class="wrap quote">
+    <div class="quote__call" data-reveal-group>
+      <p class="eyebrow" data-reveal>Get a quote</p>
+      <h2 id="quote-h" data-reveal>Send a photo. Get a number.</h2>
+      <a class="big-phone" href="tel:+15555550100" data-reveal><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span class="ph">[(555) 555-0100]</span></a>
+      <p class="quote__or" data-reveal>or just call — <span class="ph">[SAME-DAY — CONFIRM]</span></p>
+      <ul class="reassure" data-reveal>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Small jobs are fine. One loose hinge counts.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Written estimate before any work starts.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>What a visit costs: <span class="ph">$[95]/hr</span> · <span class="ph">$[145] minimum visit</span> <span class="ph">[CONFIRM]</span></span></li>
+      </ul>
+    </div>
+    <div data-reveal><div class="form-card" data-form-card>
+  <div class="form-body">
+    <h3>Send a photo, get a number</h3>
+    <p class="form-intro">Five fields. The photo is optional, but it gets you a faster number.</p>
+    <form data-quote-form novalidate>
+      <div class="form-grid">
+        <div class="field"><label for="q-name">Name <span class="req" aria-hidden="true">*</span></label><input class="field-input" id="q-name" name="name" type="text" autocomplete="name" required><span class="err" id="q-name-err">Add your name.</span></div>
+        <div class="field"><label for="q-phone">Phone <span class="req" aria-hidden="true">*</span></label><input class="field-input" id="q-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required><span class="err">Add a phone number.</span></div>
+        <div class="field span-2"><label for="q-zip">ZIP code <span class="req" aria-hidden="true">*</span></label><input class="field-input" id="q-zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" maxlength="5" pattern="[0-9]{5}" required><span class="err">Enter a 5-digit ZIP.</span></div>
+        <div class="field span-2"><label for="q-what">What's broken? <span class="req" aria-hidden="true">*</span></label><textarea class="field-input" id="q-what" name="what" rows="4" required placeholder="e.g. Bathroom door won't latch, fist-sized hole in hallway drywall"></textarea><span class="err">Tell us what needs fixing.</span></div>
+        <div class="field span-2">
+          <span class="label" id="q-photo-label">Photos</span>
+          <div class="drop" data-drop>
+            <div class="drop__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg></div>
+            <p class="drop__title">Photo of the problem (optional, but it gets you a faster number)</p>
+            <p class="drop__sub">Drag photos here, or choose from your phone. Up to 8 images.</p>
+            <input id="q-photos" name="photos" type="file" accept="image/*" multiple aria-labelledby="q-photo-label q-photo-btn">
+            <label class="drop__btn" id="q-photo-btn" for="q-photos">Choose photos</label>
+            <ul class="thumbs" data-thumbs aria-label="Selected photos"></ul>
+          </div>
+        </div>
+      </div>
+      <div class="form-foot">
+        <button class="btn btn--block" type="submit"><span>Send for a quote</span><span class="btn__token"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+        <small>Demo form — nothing is sent anywhere. See <a href="privacy.html">privacy</a>.</small>
+      </div>
+    </form>
+  </div>
+  <div class="form-done" role="status" aria-live="polite">
+    <div class="form-done__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+    <h3 class="h3">Got it — that's the demo.</h3>
+    <p>On the live site this would reach the crew with your photos attached. In this demo, nothing was sent or stored.</p>
+    <span class="demo-note">DEMO — no data left this page</span>
+    <p style="margin-top:16px"><button class="btn btn--outline btn--sm" type="button" data-form-reset>Start another</button></p>
+  </div>
+</div></div>
+  </div>
+</section>
+
+<section class="section" id="faq" aria-labelledby="faq-h">
+  <div class="wrap">
+    <div class="head-center" data-reveal-group><p class="eyebrow" data-reveal>FAQ</p><h2 class="h2" id="faq-h" data-reveal>Straight answers.</h2></div>
+    <div class="acc faq" data-acc data-acc-single data-reveal-group><div class="acc__item" data-reveal>
+      <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn"><span class="acc__idx">01</span><span class="acc__title">Do you take small jobs?</span><span class="acc__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></span></button></h3>
+      <div class="acc__panel" id="faq-1" role="region" aria-labelledby="faq-1-btn"><div class="acc__inner"><div class="acc__content"><p>Yes. One hinge, one faucet, one shelf. Small jobs are billed against the <span class="ph">$[145] minimum visit</span> <span class="ph">[CONFIRM]</span>, so it's worth adding anything else on the list to the same trip.</p></div></div></div>
+    </div><div class="acc__item" data-reveal>
+      <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="faq-2" id="faq-2-btn"><span class="acc__idx">02</span><span class="acc__title">How do you price?</span><span class="acc__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></span></button></h3>
+      <div class="acc__panel" id="faq-2" role="region" aria-labelledby="faq-2-btn"><div class="acc__inner"><div class="acc__content"><p>Hourly at <span class="ph">$[95]/hr</span> with a <span class="ph">$[145] minimum visit</span> <span class="ph">[CONFIRM]</span>. Send a photo and we'll give you a number before we book. Materials are listed separately on the written estimate.</p></div></div></div>
+    </div><div class="acc__item" data-reveal>
+      <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="faq-3" id="faq-3-btn"><span class="acc__idx">03</span><span class="acc__title">Are you licensed and insured?</span><span class="acc__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></span></button></h3>
+      <div class="acc__panel" id="faq-3" role="region" aria-labelledby="faq-3-btn"><div class="acc__inner"><div class="acc__content"><p>License: <span class="ph">[LICENSE # — CONFIRM]</span> · <span class="ph">[STATE]</span>. Insurance: <span class="ph">[CONFIRM]</span>. Bonding: <span class="ph">[CONFIRM]</span>. Certificates available on request <span class="ph">[CONFIRM]</span>.</p></div></div></div>
+    </div><div class="acc__item" data-reveal>
+      <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="faq-4" id="faq-4-btn"><span class="acc__idx">04</span><span class="acc__title">Can I send a photo instead of booking a visit?</span><span class="acc__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></span></button></h3>
+      <div class="acc__panel" id="faq-4" role="region" aria-labelledby="faq-4-btn"><div class="acc__inner"><div class="acc__content"><p>Yes — that's the fastest way. Use the quote form, add a photo or two of the problem, and we'll reply with a number or a question.</p></div></div></div>
+    </div><div class="acc__item" data-reveal>
+      <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn"><span class="acc__idx">05</span><span class="acc__title">Do you do same-day work?</span><span class="acc__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></span></button></h3>
+      <div class="acc__panel" id="faq-5" role="region" aria-labelledby="faq-5-btn"><div class="acc__inner"><div class="acc__content"><p><span class="ph">[SAME-DAY AVAILABILITY — CONFIRM]</span>. Call <span class="ph">[(555) 555-0100]</span> and we'll tell you the next open window.</p></div></div></div>
+    </div><div class="acc__item" data-reveal>
+      <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="faq-6" id="faq-6-btn"><span class="acc__idx">06</span><span class="acc__title">What areas do you cover?</span><span class="acc__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></span></button></h3>
+      <div class="acc__panel" id="faq-6" role="region" aria-labelledby="faq-6-btn"><div class="acc__inner"><div class="acc__content"><p><span class="ph">[COUNTY / METRO AREA — CONFIRM]</span>. Check your ZIP on the <a href="service-area.html">service area page</a>. Outside the list? Call — we sometimes travel <span class="ph">[CONFIRM]</span>.</p></div></div></div>
+    </div></div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer on-dark">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-contact">
+        <h2>Call or send a photo</h2>
+        <a class="foot-phone" href="tel:+15555550100"><span class="ph">[(555) 555-0100]</span></a>
+        <p><span class="ph">[email@yourbusiness.com]</span></p>
+        <p><span class="ph">[CITY, ST]</span> · Hours <span class="ph">[MON–SAT 7–6]</span></p>
+        <p><span class="ph">[SAME-DAY AVAILABILITY — CONFIRM]</span></p>
+      </div>
+      <div>
+        <h2>Services</h2>
+        <ul>
+          <li><a href="services.html#interior">Interior repairs</a></li>
+          <li><a href="services.html#plumbing">Plumbing &amp; fixtures</a></li>
+          <li><a href="services.html#doors">Doors, windows &amp; locks</a></li>
+          <li><a href="services.html#mounting">Mounting &amp; assembly</a></li>
+          <li><a href="services.html#outside">Outside the house</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Areas</h2>
+        <ul>
+          <li><a href="service-area.html">Check your ZIP</a></li>
+          <li><span><span class="ph">[TOWN]</span> · <span class="ph">[TOWN]</span></span></li>
+          <li><span><span class="ph">[TOWN]</span> · <span class="ph">[TOWN]</span></span></li>
+          <li><span><span class="ph">[COUNTY / METRO AREA — CONFIRM]</span></span></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Company</h2>
+        <ul>
+          <li><a href="about.html">About the crew</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-legal">
+      <span>© Nine Yards Home Repair Co. — fictional company, demo only</span>
+      <span>License # <span class="ph">[LICENSE # — CONFIRM]</span> · <span class="ph">[STATE]</span></span>
+      <span>Insurance <span class="ph">[CONFIRM]</span> · Bonding <span class="ph">[CONFIRM]</span></span>
+      <a href="privacy.html">Privacy</a>
+      <span class="foot-demo">DEMO — ThinkFirst Studios · [Your name here]</span>
+    </div>
+  </div>
+  <span class="giant" aria-hidden="true">Nine Yards</span>
+</footer>
+<nav class="callbar" aria-label="Quick contact" data-callbar>
+  <a class="callbar__call" href="tel:+15555550100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span>Call [(555) 555-0100]</span></a>
+  <a class="callbar__quote" href="#quote" data-quote-link>Get a quote</a>
+</nav>
+<script src="script.js" defer></script>
+</body>
+</html>

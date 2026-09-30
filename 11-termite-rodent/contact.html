@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Ledgerwood Termite & Rodent (demo)</title>
+<meta name="description" content="Demo template: request an inspection as a homeowner, or a transaction inspection as an agent. Fictional company.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1C2622">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;500;700&amp;family=Martian+Mono:wght@400&amp;family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('rj');setTimeout(function(){if(!window.LDG_OK){document.documentElement.classList.remove('rj');}},2500);</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="demo-bar" role="note">DEMO — ThinkFirst Studios · [Your name here]</div>
+<header class="site-head" data-head>
+  <div class="util"><div class="wrap util-in">
+    <span class="mono u-lic">[LICENSE # — CONFIRM] · [STATE]</span>
+    <span class="mono u-hours">[HOURS — CONFIRM]</span>
+    <span class="u-r"><span class="mono u-area">[SERVICE AREA — CONFIRM]</span><a class="mono u-escrow" href="tel:+10000000001">Escrow [ESCROW LINE — CONFIRM]</a></span>
+  </div></div>
+  <div class="bar"><div class="wrap bar-in">
+    <a class="wordmark" href="index.html" aria-label="Ledgerwood Termite and Rodent, home"><span class="wm-main">LEDGERWOOD</span><span class="wm-sub">Termite &amp; Rodent</span></a>
+    <nav class="nav" aria-label="Primary"><ul><li><a href="inspections.html">Inspections</a></li><li><a href="real-estate.html">Real estate</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul></nav>
+    <a class="btn-call" href="tel:+10000000000" aria-label="Call [PHONE — CONFIRM]"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6.6 3.5h3l1.5 4-2 1.3a11 11 0 0 0 6.1 6.1l1.3-2 4 1.5v3a2 2 0 0 1-2.2 2A17 17 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z"/></svg><span class="bc-short">Call</span><span class="bc-num">[PHONE — CONFIRM]</span></a>
+    <button class="menu-btn" type="button" data-menu aria-expanded="false" aria-controls="mnav" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+  </div></div>
+  <nav class="mnav" id="mnav" aria-label="Mobile"><div class="wrap"><ul><li><a href="inspections.html">Inspections</a></li><li><a href="real-estate.html">Real estate</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" aria-current="page">Contact</a></li><li><a href="privacy.html">Privacy</a></li></ul></div></nav>
+</header>
+<main id="main">
+<section class="phero ruled" aria-labelledby="h1">
+  <div class="wrap phero-in">
+    <div class="rv"><p class="eyebrow"><span>CONTACT</span></p><h1 id="h1">Request an inspection</h1><p class="ph-copy">Homeowners and agents use different forms — choose the one that fits. Or call.</p></div>
+    <div class="rv" style="--d:1"><div class="phero-call"><span class="mono">Call the office</span><a href="tel:+10000000000"><span class="tok">[PHONE — CONFIRM]</span></a></div></div>
+  </div>
+</section>
+
+<section class="sec light" aria-label="Contact forms and details">
+  <div class="wrap contact-grid">
+    <div>
+      <div class="tabs" role="tablist" aria-label="Who is enquiring">
+        <button class="tab" role="tab" id="tab-home" aria-controls="panel-home" aria-selected="true" data-path="homeowner"><span class="mono">Track 1</span>Homeowner</button>
+        <button class="tab" role="tab" id="tab-agent" aria-controls="panel-agent" aria-selected="false" data-path="agent" tabindex="-1"><span class="mono">Track 2</span>Agent / escrow</button>
+      </div>
+      <div role="tabpanel" id="panel-home" aria-labelledby="tab-home"><form class="form" data-demo-form novalidate aria-label="Homeowner inspection request">
+  <div class="form-2">
+    <div class="field"><label class="flabel" for="c-name">Name</label><input class="input" id="c-name" autocomplete="name" required></div>
+    <div class="field"><label class="flabel" for="c-phone">Phone</label><input class="input" id="c-phone" type="tel" autocomplete="tel" required></div>
+    <div class="field"><label class="flabel" for="c-email">Email</label><input class="input" id="c-email" type="email" autocomplete="email"></div>
+    <div class="field"><label class="flabel" for="c-zip">Property ZIP</label><input class="input" id="c-zip" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" required></div>
+  </div>
+  <div class="field"><label class="flabel" for="c-why">What prompted this?</label><select class="select" id="c-why" required><option value="">Choose one…</option>
+<option>Something on the foundation or a wall</option>
+<option>Damaged or soft wood</option>
+<option>Noises in the attic or walls</option>
+<option>Gaps, vents or entry points</option>
+<option>Selling or buying a home</option>
+<option>Routine inspection</option>
+<option>Something else</option></select></div>
+  <div class="upload">
+  <span class="flabel" id="c-photo-l">Photo (optional)</span>
+  <label class="upload-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 7.5h4l1.6-2.5h6.8L17 7.5h4V19H3z"/><circle cx="12" cy="13" r="3.6"/></svg><span><strong>Send a photo of what you're seeing</strong> — it speeds up the inspection.</span>
+    <input type="file" id="c-photo" name="photos" accept="image/*" multiple data-preview="c-photo-pv" aria-labelledby="c-photo-l c-photo-h">
+  </label>
+  <span class="upload-hint" id="c-photo-h">A photo of damage or evidence on the structure — a wall, sill, vent or foundation. Demo: files stay on your device.</span>
+  <span class="upload-hint upload-count" aria-live="polite"></span>
+  <div class="previews" id="c-photo-pv"></div>
+</div>
+  <div class="field"><label class="flabel" for="c-msg">Message</label><textarea class="textarea" id="c-msg"></textarea></div>
+  <button class="btn btn-iron" type="submit">Request an inspection</button>
+  <div class="form-ok" role="status" aria-live="polite"><strong>Demo form — nothing was sent</strong>This is a demonstration. On the live site this request goes to [INBOX / BOOKING SYSTEM — CONFIRM] and the office replies within [RESPONSE TIME — CONFIRM].</div>
+  <p class="note">[RESPONSE TIME — CONFIRM]</p>
+</form></div>
+      <div role="tabpanel" id="panel-agent" aria-labelledby="tab-agent" hidden><form class="form" data-demo-form novalidate aria-label="Agent or escrow inspection request">
+  <div class="form-2">
+    <div class="field"><label class="flabel" for="a-name">Name</label><input class="input" id="a-name" autocomplete="name" required></div>
+    <div class="field"><label class="flabel" for="a-brk">Brokerage</label><input class="input" id="a-brk" autocomplete="organization" required></div>
+    <div class="field"><label class="flabel" for="a-phone">Phone</label><input class="input" id="a-phone" type="tel" autocomplete="tel" required></div>
+    <div class="field"><label class="flabel" for="a-email">Email</label><input class="input" id="a-email" type="email" autocomplete="email" required></div>
+  </div>
+  <div class="field"><label class="flabel" for="a-addr">Property address</label><input class="input" id="a-addr" placeholder="[PROPERTY ADDRESS — placeholder only]" required></div>
+  <div class="form-2">
+    <div class="field"><label class="flabel" for="a-close">Closing date</label><input class="input" id="a-close" type="date" required></div>
+    <div class="field"><label class="flabel" for="a-need">Report needed by</label><input class="input" id="a-need" type="date" required></div>
+  </div>
+  <div class="field"><label class="flabel" for="a-msg">Message</label><textarea class="textarea" id="a-msg"></textarea></div>
+  <button class="btn btn-iron" type="submit">Request a transaction inspection</button>
+  <div class="form-ok" role="status" aria-live="polite"><strong>Demo form — nothing was sent</strong>This is a demonstration. On the live site this request goes to [INBOX / BOOKING SYSTEM — CONFIRM] and the office replies within [RESPONSE TIME — CONFIRM].</div>
+  <p class="note">[RESPONSE TIME — CONFIRM]</p>
+</form></div>
+    </div>
+    <aside class="aside-card rv" aria-label="Contact details">
+      <div class="kv"><span class="mono">Main line</span><a href="tel:+10000000000"><span class="tok">[PHONE — CONFIRM]</span></a></div>
+      <div class="kv"><span class="mono hi">Escrow line — agents and escrow</span><a href="tel:+10000000001"><span class="tok">[ESCROW LINE — CONFIRM]</span></a></div>
+      <div class="kv"><span class="mono">Email</span><span>[EMAIL — CONFIRM]</span></div>
+      <div class="kv"><span class="mono">Hours</span><span>[HOURS — CONFIRM]</span></div>
+      <div class="kv"><span class="mono">Service area</span><span>[SERVICE AREA — CONFIRM]</span></div>
+      <div class="kv"><span class="mono">License</span><span class="mono" style="color:var(--parchment)">[LICENSE # — CONFIRM] · [STATE]</span></div>
+      <div style="margin-top:20px"><figure class="fig rv" style="--d:1">
+<svg class="area-svg" viewBox="0 0 480 360" role="img" aria-labelledby="area3-t">
+  <title id="area3-t">Schematic service-area outline with four placeholder towns and the base location. Not a real map.</title>
+  <g class="grid"><path d="M0 0V360"/><path d="M40 0V360"/><path d="M80 0V360"/><path d="M120 0V360"/><path d="M160 0V360"/><path d="M200 0V360"/><path d="M240 0V360"/><path d="M280 0V360"/><path d="M320 0V360"/><path d="M360 0V360"/><path d="M400 0V360"/><path d="M440 0V360"/><path d="M480 0V360"/><path d="M0 0H480"/><path d="M0 40H480"/><path d="M0 80H480"/><path d="M0 120H480"/><path d="M0 160H480"/><path d="M0 200H480"/><path d="M0 240H480"/><path d="M0 280H480"/><path d="M0 320H480"/><path d="M0 360H480"/></g>
+  <path class="bd" d="M70 90 L190 48 L330 62 L420 130 L402 250 L300 312 L160 300 L78 226 Z"/>
+  <path class="rd" d="M40 190 C140 180 250 200 450 170"/>
+  <path class="rd" d="M240 30 C230 130 250 230 236 340"/>
+  <circle class="town" cx="150" cy="120" r="5"/><text x="162" y="116">[TOWN A]</text>
+  <circle class="town" cx="340" cy="128" r="5"/><text x="352" y="124">[TOWN B]</text>
+  <circle class="town" cx="330" cy="252" r="5"/><text x="342" y="248">[TOWN C]</text>
+  <circle class="town" cx="140" cy="244" r="5"/><text x="152" y="240">[TOWN D]</text>
+  <rect class="base" x="229" y="178" width="14" height="14"/><text x="250" y="206">[BASE — CITY]</text>
+</svg>
+<figcaption>[SERVICE AREA MAP — schematic placeholder]</figcaption>
+</figure></div>
+    </aside>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="wordmark" href="index.html" aria-label="Ledgerwood Termite and Rodent, home"><span class="wm-main">LEDGERWOOD</span><span class="wm-sub">Termite &amp; Rodent</span></a>
+        <p style="margin-top:16px">Termite and rodent inspection, reports, treatment, exclusion and repair in [CITY], [STATE] — and clearance work for escrow.</p>
+        <div class="lic">
+          <span class="mono">[LICENSE # — CONFIRM] · [STATE]</span>
+          <span class="mono">[CONTRACTOR LICENSE, IF APPLICABLE — CONFIRM]</span>
+          <span class="mono">[INSURANCE — CONFIRM]</span>
+        </div>
+      </div>
+      <div>
+        <h2>Inspections</h2>
+        <ul>
+          <li><a href="inspections.html">Termite inspection</a></li>
+          <li><a href="inspections.html#types">Rodent inspection</a></li>
+          <li><a href="inspections.html#report">WDO report</a></li>
+          <li><a href="real-estate.html">Escrow clearance</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Services</h2>
+        <ul>
+          <li><a href="services.html#treatment">Treatment</a></li>
+          <li><a href="services.html#exclusion">Exclusion</a></li>
+          <li><a href="services.html#repair">Damage repair</a></li>
+          <li><a href="index.html#warranty">Warranty</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Get in touch</h2>
+        <div class="kv"><span class="mono">Main line</span><a href="tel:+10000000000">[PHONE — CONFIRM]</a></div>
+        <div class="kv"><span class="mono">Escrow line</span><a href="tel:+10000000001">[ESCROW LINE — CONFIRM]</a></div>
+        <div class="kv"><span class="mono">Email</span><span>[EMAIL — CONFIRM]</span></div>
+        <div class="kv"><span class="mono">Hours</span><span>[HOURS — CONFIRM]</span></div>
+        <div class="kv"><span class="mono">Service area</span><span>[SERVICE AREA — CONFIRM]</span></div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; <span data-year>2026</span> Ledgerwood Termite &amp; Rodent (fictional)</span>
+      <a href="privacy.html">Privacy</a>
+      <span class="foot-demo">DEMO — ThinkFirst Studios · [Your name here]</span>
+      <p class="foot-fine">Ledgerwood Termite &amp; Rodent is a fictional business created for a website demonstration. Every bracketed item is a placeholder the client supplies or confirms. Nothing on this site is a claim made by a real company.</p>
+    </div>
+  </div>
+</footer>
+<nav class="mbar" aria-label="Quick actions">
+  <a class="m-call" href="tel:+10000000000"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6.6 3.5h3l1.5 4-2 1.3a11 11 0 0 0 6.1 6.1l1.3-2 4 1.5v3a2 2 0 0 1-2.2 2A17 17 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z"/></svg><span>Call <span class="tok">[PHONE — CONFIRM]</span></span></a>
+  <a class="m-book" href="contact.html?path=homeowner">Book inspection</a>
+</nav>
+<script src="script.js" defer></script>
+</body>
+</html>
