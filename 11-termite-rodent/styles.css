@@ -236,6 +236,15 @@ figcaption { font-family: var(--f-mono); font-size: 11px; letter-spacing: .06em;
   .hero-chips { order: 0; flex-direction: column; align-items: flex-end; justify-self: end; align-self: end; margin-bottom: 72px; }
 }
 
+/* Home hero, right-oriented: flat panel anchors the right edge, photo carries the left */
+.hero--right .hero-media img { transform: scaleX(-1); }
+.hero--right .hero-media::after { background: linear-gradient(270deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.25) 45%, transparent 75%), linear-gradient(180deg, rgba(28,38,34,.2) 0%, rgba(42,56,49,.7) 100%); }
+@media (min-width: 900px) {
+  .hero--right .hero-in { grid-template-columns: minmax(0, 1fr) minmax(440px, 500px); padding-left: var(--gut); padding-right: var(--gut); }
+  .hero--right .hero-panel { grid-column: 2; grid-row: 1; }
+  .hero--right .hero-chips { grid-column: 1; grid-row: 1; align-items: flex-start; justify-self: start; }
+}
+
 /* ---------- Forms ---------- */
 .form { display: grid; gap: 14px; margin-top: 18px; }
 .form-2 { display: grid; gap: 14px; }

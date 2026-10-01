@@ -346,6 +346,17 @@ ul, ol { margin: 0; padding: 0; }
   .hero__dog { width: min(74%, 360px); }
 }
 
+/* Home hero, right-oriented: dog + disc on the left, copy column on the right.
+   Gradient mirrored (215deg) so the deep stop stays behind the copy. */
+.hero--right .hero__paw-lead { left: auto !important; right: 3%; top: auto !important; bottom: 6%; }
+.hero--right .hero__media picture { display: flex; justify-content: center; }
+@media (min-width: 900px) {
+  .hero--right { background: linear-gradient(215deg, #3E3EA8 0%, #5B5BD6 60%, #7B79E6 100%); }
+  .hero--right .hero__grid { grid-template-columns: .92fr 1.08fr; gap: 24px 40px; }
+  .hero--right .hero__media { order: -1; }
+  .hero--right .hero__paw-lead { left: 3% !important; right: auto; top: 24% !important; bottom: auto; }
+}
+
 /* ---------- Icon strip ---------- */
 .icon-strip { padding: 28px 0 0; }
 .icon-strip ul {

@@ -338,6 +338,50 @@ ul, ol { margin: 0; padding: 0; }
 .hero-slot .slot-label { position: static; }
 @media (min-width: 1024px) { .hero-inner { min-height: auto; aspect-ratio: 21 / 9; max-height: 820px; } }
 
+/* Hero — centred variant (home). A calm, hotel-front composition on one axis.
+   Scrim re-weighted from left-dense to a centre/bottom night-indigo pool so the
+   lit lanterns at the edges stay visible while centred text holds contrast. */
+.hero--centred .hero-media img { object-position: 55% 50%; }
+.hero--centred .hero-media::after {
+  background:
+    radial-gradient(ellipse 64% 66% at 50% 56%, rgba(19, 26, 46, .66) 0%, rgba(26, 36, 80, .42) 62%, rgba(26, 36, 80, 0) 100%),
+    linear-gradient(180deg, rgba(19, 26, 46, .22) 0%, rgba(26, 36, 80, .34) 48%, rgba(19, 26, 46, .86) 100%);
+}
+.hero--centred .hero-inner {
+  align-items: center; justify-content: center; text-align: center;
+  padding-top: clamp(88px, 12vw, 120px); padding-bottom: clamp(40px, 6vw, 72px);
+}
+.hero--centred .eyebrow { display: block; margin-bottom: 18px; max-width: 100%; }
+.hero--centred .eyebrow::before,
+.hero--centred .eyebrow::after {
+  content: ""; display: inline-block; vertical-align: middle; width: 28px; height: 1px;
+  background: currentColor; opacity: .7;
+}
+.hero--centred .eyebrow::before { margin-right: .65em; }
+.hero--centred .eyebrow::after { margin-left: .65em; }
+.hero--centred h1 {
+  max-width: 22ch; margin-left: auto; margin-right: auto; margin-bottom: 18px;
+  text-wrap: balance; text-shadow: 0 2px 24px rgba(19, 26, 46, .35);
+}
+.hero--centred .lede {
+  max-width: 56ch; margin-left: auto; margin-right: auto; margin-bottom: 30px;
+  text-wrap: pretty; text-shadow: 0 1px 12px rgba(19, 26, 46, .45);
+}
+.hero--centred .hero-actions { justify-content: center; width: 100%; max-width: 420px; }
+.hero--centred .hero-chips {
+  justify-content: center; margin-top: 30px; padding-top: 22px; max-width: 760px;
+  border-top: 1px solid rgba(255, 255, 255, .18);
+}
+.hero--centred .hero-chips li { text-align: left; }
+@media (max-width: 639px) {
+  .hero--centred .eyebrow::before, .hero--centred .eyebrow::after { display: none; }
+  .hero--centred .hero-chips { gap: 8px 6px; margin-top: 26px; padding-top: 20px; }
+  .hero--centred .hero-chips li { font-size: .86rem; padding: 6px 10px; gap: 6px; }
+}
+@media (min-width: 640px) {
+  .hero--centred .hero-actions { max-width: none; }
+}
+
 /* Page hero (inner pages) */
 .page-hero { padding: clamp(48px, 7vw, 96px) 0 clamp(32px, 4vw, 56px); background: linear-gradient(180deg, var(--paper) 0%, var(--ivory) 100%); border-bottom: 1px solid var(--line); }
 .page-hero--night { background: linear-gradient(150deg, #1A2450 0%, #27366B 60%, #34457F 100%); color: var(--mist); border-bottom: 0; }

@@ -215,26 +215,70 @@ h1 .ph, h2 .ph, h3 .ph, .h-xl .ph { font-size: .74em; vertical-align: .06em; let
 /* ==========================================================================
    HERO
    ========================================================================== */
-.hero { position: relative; background: var(--black); min-height: min(92svh, 860px); display: grid; overflow: hidden; }
+/* Centred composition: full-bleed duotone photo at every width, copy on one centre axis.
+   Scrim is centre-weighted (radial, densest under the copy column) plus a bottom-up floor
+   for the diagonal exit — both 3-stop, black family. Hard crop-mark corners frame the copy
+   (fills only, no glow). Worst-case contrast vs the brightest real photo pixel under each line,
+   390→1600: kicker (off) ≥6.69 · price (muted) ≥6.82 · H1 ≥6.78 · NOW BOOKING ≥9.84. */
+.hero { position: relative; background: var(--black); min-height: min(92svh, 860px); display: grid; place-items: center; overflow: hidden; text-align: center; }
 .hero-media { position: absolute; inset: 0; }
 .hero-media .duo { position: absolute; inset: 0; }
-.hero-media::after { content: ""; position: absolute; inset: 0; background: var(--grad-scrim-up); }
-.hero-copy { position: relative; z-index: 2; align-self: end; padding: 120px var(--gutter) calc(var(--cut) + 88px); max-width: 640px; }
-.hero-copy .kicker { color: var(--muted); margin-bottom: 18px; }
-.hero h1 { font-size: clamp(2.75rem, 7.4vw, 5.5rem); line-height: .95; }
+.hero-media::after {
+  content: ""; position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 78% 62% at 50% 62%, rgba(8,9,10,.9) 0%, rgba(8,9,10,.72) 55%, rgba(8,9,10,.38) 100%),
+    linear-gradient(0deg, rgba(8,9,10,.96) 0%, rgba(8,9,10,.6) 22%, rgba(8,9,10,0) 48%);
+}
+.hero-copy { position: relative; z-index: 2; width: 100%; max-width: 940px; padding: 64px var(--gutter) calc(var(--cut) * .5 + 88px); display: flex; flex-direction: column; align-items: center; }
+.hero-copy > * { max-width: 100%; }
+.hero-copy .kicker { color: var(--off); margin: 0 0 18px; max-width: 34em; text-wrap: balance; }
+.hero h1 { font-size: clamp(2.75rem, 7.4vw, 5.5rem); line-height: .95; text-wrap: balance; }
 .hero .now { font-family: var(--display); font-weight: 600; text-transform: uppercase; letter-spacing: .06em; font-size: clamp(1.375rem, 2.6vw, 2rem); margin: 18px 0 20px; line-height: 1.25; }
 .hero .now .ph { font-size: .8em; }
-.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
-.hero-price { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--grey); font-family: var(--mono); font-size: .9375rem; color: var(--muted); }
+.hero-copy > p:not([class]) { margin: 0; max-width: 32em; }
+.hero-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 28px; }
+.hero-price { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px 14px; margin: 26px 0 0; padding-top: 18px; border-top: 1px solid var(--grey); width: min(100%, 700px); font-family: var(--mono); font-size: .9375rem; color: var(--muted); }
+.hero-price > span + span::before { content: ""; display: inline-block; width: 6px; height: 6px; background: var(--violet); margin-right: 14px; vertical-align: .18em; }
 .hero-price b { color: var(--off); font-weight: 700; }
 .scroll-cue { position: absolute; left: 50%; bottom: calc(var(--cut) * .5 + 8px); transform: translateX(-50%); z-index: 3; width: 48px; height: 48px; display: grid; place-items: center; color: var(--off); }
 .scroll-cue:hover { color: var(--lime); }
+@media (max-width: 559px) {
+  .hero-price { flex-direction: column; gap: 6px; }
+  .hero-price > span + span::before { display: none; }
+}
 @media (min-width: 900px) {
-  .hero { grid-template-columns: minmax(400px, 38%) 1fr; min-height: min(calc(100svh - var(--head-h)), 860px); }
-  .hero-media { position: relative; inset: auto; grid-column: 2; grid-row: 1; }
-  .hero-media::after { background: linear-gradient(90deg, rgba(8,9,10,.35) 0%, rgba(8,9,10,0) 30%); }
-  .hero-copy { grid-column: 1; grid-row: 1; align-self: center; padding: 56px 32px calc(var(--cut) * .7 + 40px) max(var(--gutter), calc((100vw - var(--maxw)) / 2 + var(--gutter))); max-width: none; }
+  .hero { place-items: center; min-height: min(calc(100svh - var(--head-h)), 900px); }
+  .hero-media::after {
+    background:
+      radial-gradient(ellipse 54% 66% at 50% 50%, rgba(8,9,10,.9) 0%, rgba(8,9,10,.7) 58%, rgba(8,9,10,.3) 100%),
+      linear-gradient(0deg, rgba(8,9,10,.92) 0%, rgba(8,9,10,0) 34%);
+  }
+  .hero-copy { padding: 64px 56px calc(var(--cut) * .5 + 104px); }
   .hero h1 { white-space: nowrap; }
+  /* crop-mark corners: four hard 2px violet ticks around the copy block */
+  .hero-copy::before {
+    content: ""; position: absolute; left: 0; right: 0; top: 24px; bottom: calc(var(--cut) * .5 + 64px); pointer-events: none;
+    --v: linear-gradient(var(--violet), var(--violet));
+    background:
+      var(--v) left top / 28px 2px no-repeat, var(--v) left top / 2px 28px no-repeat,
+      var(--v) right top / 28px 2px no-repeat, var(--v) right top / 2px 28px no-repeat,
+      var(--v) left bottom / 28px 2px no-repeat, var(--v) left bottom / 2px 28px no-repeat,
+      var(--v) right bottom / 28px 2px no-repeat, var(--v) right bottom / 2px 28px no-repeat;
+  }
+}
+@media (min-width: 560px) and (max-width: 899px) {
+  .hero { min-height: min(78svh, 760px); }
+}
+@media (min-width: 1024px) {
+  .hero-copy { width: min(1040px, calc(100% - 2 * var(--gutter))); max-width: none; padding-inline: 40px; }
+  .hero-copy .kicker { max-width: none; }
+}
+@media (min-width: 1200px) {
+  /* kicker flanked by hard hairlines — the centre axis made explicit (hung outside a shrink-wrapped kicker, so mixed text + placeholders stay one run) */
+  .hero-copy .kicker { position: relative; width: fit-content; max-width: calc(100% - 112px); text-wrap: wrap; }
+  .hero-copy .kicker::before, .hero-copy .kicker::after { content: ""; position: absolute; top: .8em; width: 40px; height: 1px; background: var(--violet); }
+  .hero-copy .kicker::before { right: calc(100% + 16px); }
+  .hero-copy .kicker::after { left: calc(100% + 16px); }
 }
 
 /* ==========================================================================

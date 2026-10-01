@@ -942,3 +942,20 @@ svg:where(:not([width])) { width: 1.1em; height: 1.1em; flex: none; }
 .eyebrow { display: block; }
 .eyebrow::before { display: inline-block; vertical-align: middle; margin-right: .6em; transform: translateY(-2px); }
 .phero p.eyebrow, .cta-wedge .eyebrow, .creds__left .eyebrow, .form-panel .eyebrow, .hero .eyebrow { color: var(--brass-lit); }
+
+/* ---------- Hero, right-oriented variant (home only) ----------
+   Mirror of the ref-01 wedge: photo carries the left ~58%, the slate wedge and
+   content sit on the right. Diagonal, hairline, scrim and brass wash all flip. */
+@media (min-width: 900px) {
+  .hero--right { background: linear-gradient(225deg, #151E26 0%, #1F2C37 58%, rgba(184,135,58,.22) 100%), var(--slate); }
+  .hero--right .hero__photo { left: 0; right: auto; clip-path: polygon(0 0, calc(100% - 56px) 0, 100% 100%, 0 100%); }
+  .hero--right .hero__edge { left: auto; right: 0; transform: scaleX(-1); }
+  .hero--right .hero__photo .grade::before {
+    background: linear-gradient(270deg, rgba(21,30,38,.92) 0%, rgba(21,30,38,.35) 45%, rgba(21,30,38,0) 100%);
+  }
+  .hero--right .hero__inner { align-items: flex-end; }
+  .hero--right .hero__content { text-align: right; }
+  /* multi-line sub stays left-aligned (readability); a brass lead rule anchors it, echoing .doc-meta */
+  .hero--right .hero__sub { margin-left: auto; text-align: left; padding: 2px 0 2px 16px; border-left: 2px solid var(--brass); }
+  .hero--right .btn-row, .hero--right .hero__strip { justify-content: flex-end; }
+}
